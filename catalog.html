@@ -61,6 +61,9 @@
   <form class="category-selection" action="catalog.html" method="get">
     <fieldset>
       <legend>Производители:</legend>
+      <input type="text" name="bottom-limit" class="bottom-price-limit">
+      <input type="text" name="bottom-limit" class="top-price-limit">
+      <label><input type="checkbox" name="Bosch" class="checkbox-square manufacturers">Bosch</label>
       <label><input type="checkbox" name="Bosch" class="checkbox-square manufacturers">Bosch</label>
       <label><input type="checkbox" name="Интерскол" class="checkbox-square manufacturers">Интерскол</label>
       <label><input type="checkbox" name="Makita" class="checkbox-square manufacturers">Makita</label>
@@ -74,6 +77,12 @@
     </fieldset>
     <button class="show-products" type="submit">Показать</button>
   </form>
+  <section class="sorting">
+    <h3>Сортировка:</h3>
+    <a href="#" class="sort-by-price">По цене</a>
+    <a href="#" class="sort-by-type">По типу</a>
+    <a href="#" class="sort-by-functional">По функционалу</a>
+  </section>
   <section class="products">
     <h3 class="hidden">Товары</h3>
     <ul class="products">
