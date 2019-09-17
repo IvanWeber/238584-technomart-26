@@ -43,6 +43,10 @@ a {
     overflow: hidden;
 }
 
+.complete-unavailability {
+  display: none;
+}
+
 header {
     margin: 0;
     padding: 0;
