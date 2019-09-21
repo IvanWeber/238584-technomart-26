@@ -614,3 +614,7 @@ header {
   text-align: left;
   line-height: 1;
 }
+
+.button {
+  font-family: 'PT Sans', sans-serif;
+}
