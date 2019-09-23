@@ -647,6 +647,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    justify-content: center;
 }
 
 .top-section .logo {
@@ -700,4 +701,11 @@ header {
 
 .search-form label {
   padding-top: 10px;
+}
+
+.main-header .middle-section {
+  display: flex;
+  width: 1200px;
+  margin-top: 54px;
+  padding-left: 255px;
 }
