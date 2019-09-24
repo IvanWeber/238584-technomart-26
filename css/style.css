@@ -145,53 +145,6 @@ header {
     background-color: #f4f7f9;
 }
 
-.tagline {
-    font-family: 'Cuprum', sans-serif;
-    width: 196px;
-    height: 60px;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-    line-height: 1.44;
-    color: #ee3643;
-}
-
-.address-top {
-    font-family: 'Cuprum', sans-serif;
-    width: 250px;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.71;
-    text-align: center;
-    color: #32425c;
-}
-
-.address-top .phone {
-    font-family: 'Cuprum', sans-serif;
-    width: 144px;
-    height: 21px;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #ee3643;
-}
-
-.user-menu li {
-    list-style-type: none;
-}
-
-.user-menu a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 21px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #000000;
-    list-style-type: none;
-}
-
 .main-menu {
     font-family: 'Cuprum', sans-serif;
     color: #ffffff;
@@ -632,6 +585,8 @@ header {
     padding: 0;
 }
 
+/* page-header__top-section */
+
 .page-header__top-section {
    font-family: 'Cuprum', sans-serif;
    color: #ffffff;
@@ -639,7 +594,7 @@ header {
    font-size: 17px;
    height: 43px;
    display: flex;
- }
+}
 
 .page-header__top-section__container__logo {
     display: inline-block;
@@ -708,6 +663,66 @@ header {
   padding-top: 10px;
 }
 
-.page-header .middle-section {
+/*page-header__middle-section*/
+
+.page-header__middle-section {
   font-family: 'Cuprum', sans-serif;
+  margin-top: 46px;
+}
+
+.page-header__middle-section__container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 256px;
+}
+
+.tagline {
+  font-family: 'Cuprum', sans-serif;
+  width: 200px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.44;
+  color: #ee3643;
+  margin: 0;
+  margin-top: 3px;
+ }
+
+.address-top {
+  font-family: 'Cuprum', sans-serif;
+  width: 250px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.71;
+  text-align: center;
+  color: #32425c;
+}
+
+.address-top .phone {
+  font-family: 'Cuprum', sans-serif;
+  width: 144px;
+  height: 21px;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #ee3643;
+}
+
+.user-menu li {
+  list-style-type: none;
+}
+
+.user-menu a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #000000;
+  list-style-type: none;
 }
