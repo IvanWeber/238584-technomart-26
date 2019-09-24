@@ -7,18 +7,22 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="main-header">
-  <div class="top-section">
-    <div class="logo"><a href="index.html"><img style="background-color: red;"  class="menu-logo-top" src="img/logo.svg"
-                                                alt="Логотип магазина Technomart" width="138" height="23"></a></div>
-    <form action="catalog.html" method="get" class="search-form">
+<header class="page-header">
+  <div class="page-header__top-section">
+    <div class="page-header__top-section__container container">
+    <div class="page-header__top-section__container__logo"><a href="index.html"><img style="background-color: red;"  class="menu-logo-top" src="img/logo.svg"
+                                                alt="Логотип магазина Technomart" width="109" height="19"></a></div>
+    <form action="catalog.html" method="get" class="page-header__top-section__container__search-form">
       <label for="search-field">Поиск</label>
-      <input type="search" name="search" id="search-field">
+      <input type="search" name="search" id="search-field" class="visually-hidden">
     </form>
-    <a href="#" class="favorites">Закладки: 0</a>
-    <a href="#" class="cart">Корзина: 0</a>
-    <a href="#" class="create-order">Оформить заказ</a>
+    <a href="#" class="page-header__top-section__container__favorites">Закладки: 0</a>
+    <a href="#" class="page-header__top-section__container__cart">Корзина: 0</a>
+    <a href="#" class="page-header__top-section__container__create-order">Оформить заказ</a>
+    </div>
   </div>
+  <div class="page-header__middle-section">
+    <div class="page-header__middle-section__container container">
   <p class="tagline">Интернет-магазин строительных материалов и инструментов для ремонта</p>
   <div class="address-top">
     <a class="phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
@@ -37,7 +41,10 @@
       </ul>
     </li>
   </ul>
-  <nav class="nav-top">
+    </div>
+  </div>
+  <div class="page-header__nav-top_container container">
+  <nav class="page-header__nav-top">
     <ul class="main-menu">
       <li><a href="index.html">Главная</a></li>
       <li><a href="#">Компания</a></li>
@@ -48,6 +55,7 @@
       <li><a href="#">Контакты</a></li>
     </ul>
   </nav>
+  </div>
 </header>
 
 <main class="catalog-main">
@@ -185,47 +193,58 @@
   </section>
 </main>
 
-<footer class="main-footer">
-  <div class="top-footer">
-    <a href="index.html"><img style="background-color: red;" class="menu-logo-bottom" src="img/logo.svg"
-                              alt="Логотип магазина Technomart" width="138" height="23"></a>
-    <ul class="main-menu">
-      <li><a href="index.html">Главная</a></li>
-      <li><a href="#">Компания</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="#">Новости</a></li>
-      <li><a href="#">Спецпредложения</a></li>
-      <li><a href="#">Доставка</a></li>
-      <li><a href="#">Контакты</a></li>
-    </ul>
-    <ul class="category-menu">
-      <li><a href="#">Материалы</a></li>
-      <li><a href="#">Техника</a></li>
-      <li><a href="#">Инструмент</a></li>
-      <li><a href="#">Спецпредложения</a></li>
-    </ul>
-    <div class="address-bottom">
-      <p class="address-bottom">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br><a class="phone"
-                                                                                      href="tel:+78125550555">+7
-        (812) 555-05-55</a></p>
-    </div>
-  </div>
-  <div class="bottom-footer">
-    <div class="copyright-section">
-      <p>© 2010–2019 Компания «Техномарт» <br>Все права защищены</p>
-    </div>
-    <div class="social-networks">
-      <ul class="soc-network-list">
-        <li class="vk" style="background: url(./img/vk-icon.svg) no-repeat; background-color: #212a3a;">Вконтакте</li>
-        <li class="facebook" style="background: url(./img/fb-icon.svg) no-repeat; background-color: #212a3a;">Facebook</li>
-        <li class="instagram" style="background: url(./img/insta-icon.svg) no-repeat; background-color: #212a3a;">Instagram</li>
+<footer class="page-footer">
+  <div class="page-footer__top-section">
+    <div class="page-footer__top-section__container container">
+      <a href="#"><img style="background-color: red;" class="menu-logo-bottom" src="img/logo.svg"
+                       alt="Логотип магазина Technomart" width="138" height="23"></a>
+      <ul class="main-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="#">Компания</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
     </div>
-    <div class="feedback">
-      <p>Обратная связь: <br><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+  </div>
+  <div class="page-footer__middle-section">
+    <div class="page-footer__middle-section__container container">
+      <ul class="category-menu">
+        <li><a href="#">Материалы</a></li>
+        <li><a href="#">Техника</a></li>
+        <li><a href="#">Инструмент</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+      </ul>
+      <div class="address-bottom">
+        <p class="address-bottom">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p><a class="phone" href="tel:+78125550555">+7 (812) 555-05-55</a></p>
+      </div>
     </div>
-    <div class="developer">
-      <p>Разработано — <br><a target="_blank" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+  </div>
+  <div class="page-footer__bottom-section">
+    <div class="page-footer__bottom-section__container container">
+      <div class="copyright-section">
+        <p>© 2010–2019 Компания «Техномарт» <br>Все права защищены</p>
+      </div>
+      <div class="social-networks">
+        <ul class="soc-network-list">
+          <li class="vk" style="background: url(./img/vk-icon.svg) no-repeat; background-color: #212a3a;">Вконтакте</li>
+          <li class="facebook" style="background: url(./img/fb-icon.svg) no-repeat; background-color: #212a3a;">
+            Facebook
+          </li>
+          <li class="instagram" style="background: url(./img/insta-icon.svg) no-repeat; background-color: #212a3a;">
+            Instagram
+          </li>
+        </ul>
+      </div>
+      <div class="feedback">
+        <p>Обратная связь: <br><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+      </div>
+      <div class="developer">
+        <p>Разработано — <br><a target="_blank" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+      </div>
     </div>
   </div>
 </footer>
