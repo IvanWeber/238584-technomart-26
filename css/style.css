@@ -104,6 +104,8 @@
   url('../fonts/cuprum-v11-cyrillic_latin-700italic.svg#Cuprum') format('svg'); /* Legacy iOS */
 }
 
+/*common styles*/
+
 body {
     margin: 0;
     padding: 0;
@@ -152,25 +154,6 @@ header {
     font-style: italic;
     line-height: 1.44;
     color: #ee3643;
-}
-
-.top-section {
-    font-family: 'Cuprum', sans-serif;
-    color: #ffffff;
-    background-color: #293449;
-    font-size: 17px;
-    padding: 0;
-    margin: 0;
-    height: 42px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.top-section a {
-  font-family: 'Cuprum', sans-serif;
-  color: #ffffff;
-  padding-top: 10px;
 }
 
 .address-top {
@@ -642,15 +625,23 @@ header {
 
 /* ----- Сеточные стили ----- */
 
-.main-header {
+/* page-header */
+
+.page-header {
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
     padding: 0;
-    justify-content: center;
 }
 
-.top-section .logo {
+.page-header__top-section {
+   font-family: 'Cuprum', sans-serif;
+   color: #ffffff;
+   background-color: #293449;
+   font-size: 17px;
+   height: 43px;
+   display: flex;
+ }
+
+.page-header__top-section__container__logo {
     display: inline-block;
     width: 220px;
     height: 35px;
@@ -661,27 +652,41 @@ header {
 }
 
 
-.top-section .search-form {
+.page-header__top-section__container__search-form {
     display: flex;
     margin-left: 49px;
     width: 211px;
 }
 
-.top-section .favorites {
+.page-header__top-section__container__favorites {
     margin-left: 54px;
 }
 
-.top-section .cart {
+.page-header__top-section__container__cart {
     margin-left: 78px;
 }
 
-.top-section .create-order {
+.page-header__top-section__container__create-order {
   width: 150px;
   margin-left: 31px;
   background-color: #63a63e;
   text-align: center;
   padding-top: 10px;
   padding-right: 0px;
+}
+
+.page-header__top-section__container a {
+  font-family: 'Cuprum', sans-serif;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.page-header__top-section__container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 203px;
 }
 
 .slide h3 {
@@ -699,13 +704,10 @@ header {
   background-color: #ff5357;
 }
 
-.search-form label {
+.page-header__top-section__container__search-form label {
   padding-top: 10px;
 }
 
-.main-header .middle-section {
-  display: flex;
-  width: 1200px;
-  margin-top: 54px;
-  padding-left: 255px;
+.page-header .middle-section {
+  font-family: 'Cuprum', sans-serif;
 }
