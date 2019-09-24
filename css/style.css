@@ -427,14 +427,6 @@ header {
     background-color: #ee3643;
 }
 
-.top-footer {
-    background-color: #32425c;
-}
-
-.bottom-footer {
-    background-color: #293449;
-}
-
 .category-menu a {
     font-family: 'Cuprum', sans-serif;
     font-size: 18px;
@@ -727,7 +719,7 @@ header {
   list-style-type: none;
 }
 
-/*page-header__nav-top*/
+/* page-header__nav-top */
 
 .page-header__nav-top_container {
   padding-top: 18px;
@@ -737,4 +729,51 @@ header {
 .page-header__nav-top .main-menu {
   display: flex;
   height: 60px;
+}
+
+/* page-footer */
+
+.page-footer {
+  min-height: 300px;
+}
+
+/* page-footer__top-section */
+
+.page-footer__top-section {
+  background-color: #32425c;
+  height: 95px;
+}
+
+.page-footer__top-section__container {
+  display: flex;
+}
+
+.page-footer__top-section__container .main-menu {
+  display: flex;
+  height: 60px;
+}
+
+/* page-footer__middle-section */
+
+.page-footer__middle-section {
+  background-color: #32425c;
+}
+
+.page-footer__middle-section__container {
+  display: flex;
+}
+
+.category-menu {
+  display: flex;
+}
+
+/* page-footer__bottom-section */
+
+.page-footer__bottom-section {
+  background-color: #293449;
+  height: 107px;
+}
+
+.page-footer__bottom-section__container {
+  display: flex;
 }
