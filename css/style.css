@@ -152,10 +152,12 @@ header {
 }
 
 .main-menu {
-    font-family: 'Cuprum', sans-serif;
-    color: #ffffff;
-    background-color: #293449;
-    font-size: 17px;
+  font-family: 'Cuprum', sans-serif;
+  color: #ffffff;
+  background-color: #293449;
+  font-size: 17px;
+  width: 899px;
+
 }
 
 .main-menu li {
@@ -167,55 +169,6 @@ header {
     color: #ffffff;
     background-color: #293449;
     font-size: 17px;
-}
-
-.offers .offer {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.25;
-    color: #ffffff;
-    background-color: #ffbf47;
-}
-
-.offers .feature {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-.slider p {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-.slider .feature {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.33;
-    color: #ffffff;
-    text-transform: none;
-}
-
-.slider a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    color: #ffffff;
 }
 
 .popular-products h2 {
@@ -579,8 +532,9 @@ header {
 /* page-header */
 
 .page-header {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 320px;
 }
 
 /* page-header__top-section */
@@ -776,4 +730,127 @@ header {
 
 .page-footer__bottom-section__container {
   display: flex;
+}
+
+/* page-main-container */
+
+.page-main-container {
+  margin-top: 59px;
+}
+
+/* page-main-container__offers */
+
+.page-main-container__offers__container {
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-main-container__offers__offer {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.25;
+  color: #ffffff;
+  background-color: #ffbf47;
+  width: 300px;
+  height: 123px;
+}
+
+.page-main-container__offers__offer--materials {
+  background: url(../img/materials.png) no-repeat;
+  background-position: 212px;
+  background-color: #ffbf47;
+}
+
+.page-main-container__offers__offer--tools {
+  background: url(../img/tools.png) no-repeat;
+  background-position: 196px;
+  background-color: #3bbce3;
+  margin-left: 20px;
+}
+
+.page-main-container__offers__offer--technics {
+  background: url(../img/technics.png) no-repeat;
+  background-position: 190px;
+  background-color: #dc91d8;
+  margin-left: 20px;
+}
+
+.page-main-container__offers__offer--discounts {
+  background: url(../img/discounts.png) no-repeat;
+  background-position: 196px;
+  background-color: #8ed78f;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.page-main-container__offers__offer--discounts h3 {
+  margin: 0;
+}
+
+.page-main-container__offers__offer--delivery {
+  background: url(../img/delivery.png) no-repeat;
+  background-position: 190px;
+  background-color: #ffc047;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.page-main-container__offers__offer--delivery h3 {
+  margin: 0;
+}
+
+.page-main-container__offers .feature {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.flex-offers-wrap {
+  order: 1;
+}
+
+/* page-main-container__offers */
+
+.slider {
+  background: url(../img/drills.png) no-repeat;
+  height: 266px;
+  width: 620px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.slider p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.slider .feature {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: #ffffff;
+  text-transform: none;
+}
+
+.slider a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  color: #ffffff;
 }

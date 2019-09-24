@@ -48,44 +48,48 @@
   </div>
 </header>
 
-<main class="main-container">
-  <section class="offers">
-    <h2 class="visually-hidden">Предложения</h2>
-    <div class="offer materials" style="background: url(./img/materials.png) no-repeat; background-color: gray">
-      <h3>Материалы</h3>
-      <a class="feature" href="#">На любой вкус</a>
-    </div>
-    <div class="offer tools" style="background: url(./img/tools.png) no-repeat; background-color: gray">
-      <h3>Инструмент</h3>
-      <a class="feature" href="#">На все случаи</a>
-    </div>
-    <div class="offer technics" style="background: url(./img/technics.png) no-repeat; background-color: gray;">
-      <h3>Техника</h3>
-      <a class="feature" href="#">Для стройки</a>
-    </div>
-    <div class="offer discounts" style="background: url(./img/discounts.png) no-repeat; background-color: gray">
-      <h3>Скидки</h3>
-      <a class="feature" href="#">На 350 товаров</a>
-    </div>
-    <div class="offer delivery" style="background: url(./img/delivery.png) no-repeat; background-color: gray">
-      <h3>Доставка</h3>
-      <a class="feature" href="#">Бесплатно</a>
-    </div>
-    <div class="slider">
-      <div class="slide">
-        <h3>Дрели</h3>
-        <img class="slider-img" src="./img/drills.png" alt="Дрели">
-        <p class="feature">Соседям на радость!</p>
-        <a href="#">Открыть каталог</a>
+<main class="page-main-container">
+  <section class="page-main-container__offers">
+    <div class="page-main-container__offers__container container">
+      <h2 class="visually-hidden">Предложения</h2>
+      <div class="page-main-container__offers__offer page-main-container__offers__offer--materials">
+        <h3>Материалы</h3>
+        <a class="feature" href="#">На любой вкус</a>
       </div>
-      <div class="slide">
-        <h3>Перфораторы</h3>
-        <img class="slider-img" src="./img/perforators.png" alt="Перфораторы">
-        <p class="feature">Настоящие мужские игрушки</p>
-        <a href="#">Открыть каталог</a>
+      <div class="page-main-container__offers__offer page-main-container__offers__offer--tools">
+        <h3>Инструмент</h3>
+        <a class="feature" href="#">На все случаи</a>
       </div>
-      <button type="button" class="button">Вперёд</button>
-      <button type="button" class="button">Назад</button>
+      <div class="page-main-container__offers__offer page-main-container__offers__offer--technics">
+        <h3>Техника</h3>
+        <a class="feature" href="#">Для стройки</a>
+      </div>
+      <div class="flex-offers-wrap">
+      <div class="page-main-container__offers__offer page-main-container__offers__offer--discounts">
+        <h3>Скидки</h3>
+        <a class="feature" href="#">На 350 товаров</a>
+      </div>
+      <div class="page-main-container__offers__offer page-main-container__offers__offer--delivery">
+        <h3>Доставка</h3>
+        <a class="feature" href="#">Бесплатно</a>
+      </div>
+      </div>
+      <div class="slider">
+        <div class="slide">
+          <h3>Дрели</h3>
+<!--          <img class="slider-img" src="./img/drills.png" alt="Дрели">-->
+          <p class="feature">Соседям на радость!</p>
+          <a href="#">Открыть каталог</a>
+        </div>
+        <div class="slide visually-hidden">
+          <h3>Перфораторы</h3>
+          <img class="slider-img" src="./img/perforators.png" alt="Перфораторы">
+          <p class="feature">Настоящие мужские игрушки</p>
+          <a href="#">Открыть каталог</a>
+        </div>
+        <button type="button" class="button">Вперёд</button>
+        <button type="button" class="button">Назад</button>
+      </div>
     </div>
   </section>
 
