@@ -118,7 +118,6 @@ body {
     background-color: #ffffff;
 }
 
-/*Оформление текста*/
 a {
     text-decoration: none;
 }
@@ -143,6 +142,11 @@ header {
     margin: 0;
     padding: 0;
     background-color: #f4f7f9;
+}
+
+.button {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #ff5357;
 }
 
 .container {
@@ -194,55 +198,6 @@ header {
 
 .popular-products li, .products{
     list-style-type: none;
-}
-
-.card h3 {
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.11;
-    color: #000000;
-}
-
-.card p {
-    font-size: 17px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.06;
-    text-align: center;
-    color: #ffffff;
-}
-
-.card .price {
-    background-color: #ee3643;
-}
-
-.card .old-price {
-    text-decoration: line-through;
-    color: #a9a9a9;
-}
-
-.card .add-to-cart {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #63a63e;
-}
-
- .card .add-to-favorites {
-     font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    text-align: center;
-    color: #32425c;
-    text-transform: uppercase;
 }
 
 .popular-manufacturers h2 {
@@ -603,11 +558,6 @@ header {
   line-height: 1;
 }
 
-.button {
-  font-family: 'PT Sans', sans-serif;
-  background-color: #ff5357;
-}
-
 .page-header__top-section__container__search-form label {
   padding-top: 10px;
 }
@@ -853,4 +803,89 @@ header {
   font-style: normal;
   line-height: 1.29;
   color: #ffffff;
+}
+
+/*page-main-container__popular*/
+.page-main-container__popular-products__header {
+  background-color: #f9f5f0;
+  width: 940px;
+  height: 89px;
+  margin-top: 53px;
+}
+
+/*page-main-container__popular-products__header*/
+
+.page-main-container__popular-products__header h2 {
+  margin: 0;
+}
+
+/*page-main-container__popular-products__main*/
+
+.page-main-container__popular-products__main {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 940px;
+  margin-top: 21px;
+}
+
+.page-main-container__popular-products__card {
+  list-style-type: none;
+  height: 318px;
+  width: 220px;
+  margin-right: 17px;
+  border: solid 1px #eaeaea;
+}
+
+.page-main-container__popular-products__card:last-child {
+  margin-right: 0;
+}
+
+.page-main-container__popular-products__card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.11;
+  color: #000000;
+}
+
+.page-main-container__popular-products__card p {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.06;
+  text-align: center;
+  color: #ffffff;
+}
+
+.page-main-container__popular-products__card .price {
+  background-color: #ee3643;
+}
+
+.page-main-container__popular-products__card .old-price {
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.page-main-container__popular-products__card .add-to-cart {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #63a63e;
+}
+
+.page-main-container__popular-products__card .add-to-favorites {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #32425c;
+  text-transform: uppercase;
 }
