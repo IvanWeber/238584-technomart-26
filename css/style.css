@@ -147,6 +147,8 @@ header {
 .button {
   font-family: 'PT Sans', sans-serif;
   background-color: #ff5357;
+  text-decoration: none;
+  color: black;
 }
 
 .container {
@@ -197,32 +199,6 @@ header {
 }
 
 .popular-products li, .products{
-    list-style-type: none;
-}
-
-.popular-manufacturers h2 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #32425c;
-    text-transform: uppercase;
-}
-
-.popular-manufacturers > a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #ee3643;
-}
-
-.popular-manufacturers li {
     list-style-type: none;
 }
 
@@ -816,6 +792,13 @@ header {
 /*page-main-container__popular-products__header*/
 
 .page-main-container__popular-products__header h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -860,11 +843,13 @@ header {
 
 .page-main-container__popular-products__card .price {
   background-color: #ee3643;
+  margin: 0;
 }
 
 .page-main-container__popular-products__card .old-price {
   text-decoration: line-through;
   color: #a9a9a9;
+  margin: 0;
 }
 
 .page-main-container__popular-products__card .add-to-cart {
@@ -888,4 +873,69 @@ header {
   text-align: center;
   color: #32425c;
   text-transform: uppercase;
+}
+
+/*page-main-container__popular-manufacturers*/
+
+.page-main-container__popular-manufacturers {
+  margin-top: 21px;
+}
+
+.page-main-container__popular-manufacturers__header {
+  background-color: #f9f5f0;
+  width: 940px;
+  height: 89px;
+}
+
+.page-main-container__popular-manufacturers__main {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 940px;
+  margin-top: 18px;
+}
+
+.page-main-container__popular-manufacturers__card {
+  list-style-type: none;
+  height: 145px;
+  width: 220px;
+  margin-right: 13px;
+  margin-bottom: 20px;
+  border: solid 1px #eaeaea;
+  display: flex;
+}
+
+.page-main-container__popular-manufacturers__card-link {
+  margin: auto;
+}
+
+.page-main-container__popular-manufacturers__img {
+  margin: auto;
+}
+
+.page-main-container__popular-manufacturers h2 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.page-main-container__popular-manufacturers > a {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+}
+
+.page-main-container__popular-manufacturers li {
+  list-style-type: none;
 }
