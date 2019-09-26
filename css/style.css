@@ -122,6 +122,10 @@ a {
     text-decoration: none;
 }
 
+h1, h2 , h3 {
+  margin: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -175,6 +179,16 @@ header {
     color: #ffffff;
     background-color: #293449;
     font-size: 17px;
+}
+
+.breadcrumb, .breadcrumb a {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.38;
+  color: #000000;
+  text-transform: uppercase;
+  list-style-type: none;
 }
 
 .popular-products h2 {
@@ -345,26 +359,6 @@ header {
 
 .feedback a, .developer a {
     color: #ffffff;
-}
-
-.catalog-main h1 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #32425c;
-    text-transform: uppercase;
-    background-color: #f2f6f8;
-}
-
-.breadcrumb, .breadcrumb a {
-    font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.38;
-    color: #000000;
-    text-transform: uppercase;
 }
 
 .category-selection {
@@ -959,4 +953,63 @@ header {
 
 .about-company-wrap h2 {
   margin: 0;
+}
+
+/* Страница каталога */
+
+.catalog-main__header-block-perforators {
+  display: flex;
+}
+
+.catalog-main__breadcrumb {
+  display: flex;
+}
+
+.catalog-main__header-perforators-container {
+  height: 89px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+
+.catalog-main__header-perforators-container h1 {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+
+/* catalog-main__main-catalog-wrapper */
+
+.catalog-main__main-catalog-wrapper {
+  display: flex;
+}
+
+/* category-selection */
+
+.category-selection {
+  width: 220px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 318px;
+  width: 220px;
+}
+
+.bottom-pagination {
+  display: flex;
 }
