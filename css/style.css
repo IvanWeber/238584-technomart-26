@@ -152,7 +152,7 @@ header {
 }
 
 .container {
-  width: 1200px;
+  width: 940px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -200,10 +200,6 @@ header {
 
 .popular-products li, .products{
     list-style-type: none;
-}
-
-.services {
-    background-color: #f4f7f9;
 }
 
 .services h2 {
@@ -481,7 +477,6 @@ header {
 
 .page-header__top-section__container {
   display: flex;
-  padding-left: 259px;
 }
 
 .page-header__top-section__container__logo {
@@ -547,7 +542,6 @@ header {
 
 .page-header__middle-section__container {
   display: flex;
-  padding-left: 364px;
 }
 
 .tagline {
@@ -603,7 +597,6 @@ header {
 
 .page-header__nav-top_container {
   padding-top: 18px;
-  padding-left: 260px;
 }
 
 .page-header__nav-top .main-menu {
@@ -667,7 +660,6 @@ header {
 /* page-main-container__offers */
 
 .page-main-container__offers__container {
-  width: 940px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -784,7 +776,6 @@ header {
 /*page-main-container__popular*/
 .page-main-container__popular-products__header {
   background-color: #f9f5f0;
-  width: 940px;
   height: 89px;
   margin-top: 53px;
 }
@@ -808,7 +799,6 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 940px;
   margin-top: 21px;
 }
 
@@ -883,7 +873,6 @@ header {
 
 .page-main-container__popular-manufacturers__header {
   background-color: #f9f5f0;
-  width: 940px;
   height: 89px;
 }
 
@@ -891,7 +880,6 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 940px;
   margin-top: 18px;
 }
 
@@ -938,4 +926,26 @@ header {
 
 .page-main-container__popular-manufacturers li {
   list-style-type: none;
+}
+
+/* services */
+
+.services {
+  background-color: #f4f7f9;
+  margin-top: 62px;
+  height: 522px;
+}
+
+.services__container {
+  height: 522px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__list--short {
+  height: 279px;
+}
+
+.services__list--detail {
+  width: 627px;
 }
