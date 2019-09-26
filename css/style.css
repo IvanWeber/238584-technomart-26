@@ -614,7 +614,7 @@ header {
 
 .page-footer__top-section {
   background-color: #32425c;
-  height: 95px;
+  height: 93px;
 }
 
 .page-footer__top-section__container {
@@ -948,4 +948,15 @@ header {
 
 .services__list--detail {
   width: 627px;
+}
+
+/* about-company-wrap */
+
+.about-company-wrap {
+  display: flex;
+  min-height: 534px;
+}
+
+.about-company-wrap h2 {
+  margin: 0;
 }
