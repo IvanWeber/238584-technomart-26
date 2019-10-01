@@ -538,7 +538,7 @@ header {
 }
 
 .page-header__cart {
-    margin-left: 78px;
+    margin-left: 77px;
 }
 
 .page-header__create-order {
@@ -546,7 +546,8 @@ header {
   background-color: #63a63e;
   text-align: center;
   padding-top: 10px;
-  padding-right: 0px;
+  padding-right: 21px;
+  padding-left: 21px;
 }
 
 .page-header__link {
