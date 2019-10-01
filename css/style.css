@@ -521,7 +521,20 @@ header {
 }
 
 .page-header__favorites {
-    margin-left: 225px;
+    margin-left: 224px;
+}
+
+.page-header__favorites:before {
+  content: '';
+  position: relative;
+  top: 13px;
+  left: -6px;
+  background-color: #293449;
+  background-image: url(../img/icon-bookmark.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
 }
 
 .page-header__cart {
@@ -539,8 +552,7 @@ header {
 .page-header__link {
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 8px;
+  padding-top: 9px;
 }
 
 .slide h3 {
