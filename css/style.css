@@ -501,7 +501,6 @@ header {
 .page-header__search-form {
   display: flex;
   margin-left: 23px;
-  width: 211px;
 }
 
 .page-header__search-form:before {
@@ -521,16 +520,15 @@ header {
   padding-top: 9px;
 }
 
-.page-header__top-section__container__favorites {
-    margin-left: 53px;
+.page-header__favorites {
+    margin-left: 225px;
 }
 
-.page-header__top-section__container__cart {
+.page-header__cart {
     margin-left: 78px;
 }
 
-.page-header__top-section__container__create-order {
-  width: 150px;
+.page-header__create-order {
   margin-left: 31px;
   background-color: #63a63e;
   text-align: center;
@@ -538,7 +536,7 @@ header {
   padding-right: 0px;
 }
 
-.page-header__top-section__container a {
+.page-header__link {
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
   padding-top: 10px;
