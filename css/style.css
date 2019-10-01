@@ -106,6 +106,14 @@
 
 /*common styles*/
 
+html {
+  box-sizing: border-box;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -116,6 +124,11 @@ body {
     color: #000000;
 
     background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -465,7 +478,6 @@ header {
    color: #ffffff;
    background-color: #293449;
    font-size: 17px;
-   height: 43px;
    display: flex;
 }
 
@@ -473,25 +485,44 @@ header {
   display: flex;
 }
 
-.page-header__top-section__container__logo {
-    display: inline-block;
-    width: 220px;
-    height: 35px;
-    text-align: center;
-    background-color: red;
-    padding-top: 13px;
-    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+.page-header__logo {
+  display: inline-block;
+  width: 220px;
+  height: 35px;
+  text-align: center;
+  background-color: red;
+  padding-top: 13px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: -5px;
+  padding-bottom: 34px;
 }
 
 
-.page-header__top-section__container__search-form {
-    display: flex;
-    margin-left: 49px;
-    width: 211px;
+.page-header__search-form {
+  display: flex;
+  margin-left: 23px;
+  width: 211px;
+}
+
+.page-header__search-form:before {
+  content: '';
+  position: relative;
+  top: 13px;
+  left: -6px;
+  background-color: #293449;
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 25px;
+  height: 25px;
+}
+
+.page-header__search-form-label {
+  padding-top: 9px;
 }
 
 .page-header__top-section__container__favorites {
-    margin-left: 54px;
+    margin-left: 53px;
 }
 
 .page-header__top-section__container__cart {
@@ -511,6 +542,7 @@ header {
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
   padding-top: 10px;
+  padding-bottom: 8px;
 }
 
 .slide h3 {
@@ -523,11 +555,7 @@ header {
   line-height: 1;
 }
 
-.page-header__top-section__container__search-form label {
-  padding-top: 10px;
-}
-
-/*page-header__middle-section*/
+/*page-header__page-header__top-sectionction*/
 
 .page-header__middle-section {
   font-family: 'Cuprum', sans-serif;
