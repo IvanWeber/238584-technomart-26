@@ -626,20 +626,10 @@ header {
   margin-left: 40px;
 }
 
-
-
-/*.page-header__phone {*/
-/*  font-family: 'Cuprum', sans-serif;*/
-/*  width: 144px;*/
-/*  height: 21px;*/
-/*  font-size: 21px;*/
-/*  font-weight: normal;*/
-/*  font-style: normal;*/
-/*  line-height: 1;*/
-/*  color: #ee3643;*/
-/*  padding: 7px 55px 8px 66px;*/
-/*  border: #ffffff solid 3px;*/
-/*}*/
+.page-header__address {
+  margin: 0;
+  margin-left: 33px;
+}
 
 .user-menu li {
   list-style-type: none;
