@@ -488,7 +488,7 @@ header {
   background-color: red;
   padding-top: 13px;
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
-  margin-bottom: -5px;
+  margin-bottom: -4px;
   padding-bottom: 34px;
 }
 
@@ -498,7 +498,7 @@ header {
   margin-left: 7px;
 }
 
-.page-header__search-svg-element {
+.page-header__search-svg-element-wrap {
   padding-top: 12px;
   padding-left: 10px;
 }
@@ -512,7 +512,7 @@ header {
   margin-left: 197px;
 }
 
-.page-header__favorites-svg-element {
+.page-header__favorites-svg-element-wrap {
   padding-top: 2px;
 }
 
@@ -529,7 +529,7 @@ header {
   margin-left: 46px;
 }
 
-.page-header__cart-svg-element {
+.page-header__cart-svg-element-wrap {
   padding-top: 1px;
 }
 
@@ -577,8 +577,6 @@ header {
 
 .page-header__tagline {
   font-family: 'Cuprum', sans-serif;
-  width: 200px;
-  height: 60px;
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
@@ -587,29 +585,61 @@ header {
   margin: 0;
   margin-top: 3px;
   margin-left: 52px;
+  flex: 0 0 200px;
  }
 
-.address-top {
+.page-header__phone {
+  margin-left: 5px;
+  color: #ee3643;
+}
+
+.page-header__address-top {
   font-family: 'Cuprum', sans-serif;
-  width: 250px;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   line-height: 1.71;
   text-align: center;
   color: #32425c;
+  margin-left: 46px;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-.address-top .phone {
+.page-header__phone-wrap {
   font-family: 'Cuprum', sans-serif;
-  width: 144px;
-  height: 21px;
   font-size: 21px;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
   color: #ee3643;
+  border: #ffffff solid 3px;
+  display: flex;
+  margin-left: 17px;
+  padding: 9px 50px 7px 12px;
 }
+
+.page-header__phone-text-content {
+  margin: 0;
+  margin-left: 40px;
+}
+
+
+
+/*.page-header__phone {*/
+/*  font-family: 'Cuprum', sans-serif;*/
+/*  width: 144px;*/
+/*  height: 21px;*/
+/*  font-size: 21px;*/
+/*  font-weight: normal;*/
+/*  font-style: normal;*/
+/*  line-height: 1;*/
+/*  color: #ee3643;*/
+/*  padding: 7px 55px 8px 66px;*/
+/*  border: #ffffff solid 3px;*/
+/*}*/
 
 .user-menu li {
   list-style-type: none;
