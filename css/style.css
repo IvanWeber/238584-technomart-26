@@ -319,15 +319,6 @@ header {
     color: #ffd180;
 }
 
-.address-bottom p {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.33;
-    color: #f3f7f9;
-}
-
 .copyright-section p {
     font-family: 'Cuprum', sans-serif;
     font-size: 16px;
@@ -801,6 +792,28 @@ header {
 
 .page-footer__middle-section__container {
   display: flex;
+}
+
+.page-footer__address {
+  display: flex;
+  flex-wrap: wrap;
+  width: 340px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.page-footer__address-item {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.33;
+  margin: 0;
+}
+
+.page-footer__phone {
+  color: #ffffff;
 }
 
 .category-menu {
