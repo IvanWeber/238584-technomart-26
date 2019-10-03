@@ -679,16 +679,6 @@ header {
   list-style-type: none;
 }
 
-/*.main-menu-item:nth-child(1) {*/
-/*  padding-top: 17px;*/
-/*  padding-left: 12px;*/
-/*}*/
-
-/*.main-menu-item:nth-child(2) {*/
-/*  padding-top: 17px;*/
-/*  padding-left: 64px;*/
-/*}*/
-
 .main-menu-item-div {
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
@@ -744,6 +734,16 @@ header {
 }
 
 /* page-footer__top-section */
+
+.page-footer__logo {
+  width: 220px;
+  height: 35px;
+  text-align: center;
+  background-color: red;
+  padding-top: 20px;
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  padding-bottom: 48px;
+}
 
 .page-footer__top-section {
   background-color: #32425c;
