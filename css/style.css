@@ -310,15 +310,6 @@ header {
     background-color: #ee3643;
 }
 
-.category-menu a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.33;
-    color: #ffd180;
-}
-
 .copyright-section p {
     font-family: 'Cuprum', sans-serif;
     font-size: 16px;
@@ -816,8 +807,39 @@ header {
   color: #ffffff;
 }
 
-.category-menu {
+.page-footer__category-menu {
   display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.category-menu-item-link {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.33;
+  color: #ffd180;
+}
+
+.category-menu-item-materials {
+  padding-top: 3px;
+  padding-left: 36px;
+}
+
+.category-menu-item-technics {
+  padding-top: 3px;
+  padding-left: 60px;
+}
+
+.category-menu-item-tools {
+  padding-top: 3px;
+  padding-left: 59px;
+}
+
+.category-menu-item-spec-offers {
+  padding-top: 3px;
+  padding-left: 59px;
 }
 
 /* page-footer__bottom-section */
