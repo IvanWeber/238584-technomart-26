@@ -310,15 +310,6 @@ header {
     background-color: #ee3643;
 }
 
-.copyright-section p {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.13;
-    color: #ffffff;
-}
-
 .feedback p, .developer p {
     font-family: 'Cuprum', sans-serif;
     font-size: 16px;
@@ -852,6 +843,17 @@ header {
 
 .page-footer__bottom-section__container {
   display: flex;
+}
+
+.page-footer__copyright-section {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.13;
+  color: #ffffff;
+  margin-top: 21px;
+  margin-left: 2px;
 }
 
 /* page-main-container */
