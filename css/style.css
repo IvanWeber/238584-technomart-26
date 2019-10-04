@@ -856,6 +856,40 @@ header {
   margin-left: 2px;
 }
 
+.page-footer__social-networks {
+  margin-left: 118px;
+  margin-top: 21px;
+}
+
+.page-footer__soc-network-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.soc-network-list-item-facebook {
+  margin-left: 3px;
+}
+
+.soc-network-list-item-instagram {
+  margin-left: 3px;
+}
+
+.page-footer__soc-network-list-item-wrap {
+  background-color: #212a3a;
+  width: 42px;
+  height: 42px;
+  border-radius: 100px;
+  display: flex;
+}
+
+.soc-network-list-item-vk {
+}
+
+.soc-network-list-item-vk-img {
+  margin: auto;
+}
+
 /* page-main-container */
 
 .page-main-container {
