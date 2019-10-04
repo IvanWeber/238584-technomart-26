@@ -310,19 +310,6 @@ header {
     background-color: #ee3643;
 }
 
-.feedback p, .developer p {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.13;
-    color: #ffd180;
-}
-
-.feedback a, .developer a {
-    color: #ffffff;
-}
-
 .category-selection {
     font-size: 15px;
     font-weight: normal;
@@ -888,6 +875,29 @@ header {
 
 .soc-network-list-item-vk-img {
   margin: auto;
+}
+
+.page-footer__feedback-par, .page-footer__developer-par {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.page-footer__feedback-link, .page-footer__developer-link {
+  color: #ffd180;
+}
+
+.page-footer__feedback {
+  margin-top: 21px;
+  margin-left: 119px;
+}
+
+.page-footer__developer {
+  margin-top: 21px;
+  margin-left: 52px;
 }
 
 /* page-main-container */
