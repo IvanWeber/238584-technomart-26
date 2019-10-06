@@ -106,9 +106,9 @@
   </div>
 </header>
 
-<main class="page-main-container">
-  <section class="page-main-container__offers">
-    <div class="page-main-container__offers__container container">
+<main class="page-main">
+  <section class="page-main__offers page-main-offers">
+    <div class="page-main-offers__container container">
       <h2 class="visually-hidden">Предложения</h2>
       <div class="page-main__offer page-main-container__offers__offer--materials">
         <h3 class="page-main__offer-heading">Материалы</h3>
@@ -132,11 +132,11 @@
           <a class="feature" href="#"><div class="page-main__offer-link"><p class="page-main__offer-link-par">Бесплатно</p></div></a>
         </div>
       </div>
-      <div class="slider">
-        <div class="slide">
-          <h3>Дрели</h3>
-          <p class="feature">Соседям на радость!</p>
-          <a href="#">Открыть каталог</a>
+      <div class="page-main-offers__slider page-main-slider">
+        <div class="page-main-slider__slide">
+          <h3 class="page-main-slider__drills-heading">Дрели</h3>
+          <p class="page-main-slider__drills-par">Соседям на радость!</p>
+          <a class="button page-main-slider__open-catalog-button" href="#">Открыть каталог</a>
         </div>
         <div class="slide visually-hidden">
           <h3>Перфораторы</h3>
@@ -144,8 +144,17 @@
           <p class="feature">Настоящие мужские игрушки</p>
           <a href="#">Открыть каталог</a>
         </div>
-        <button type="button" class="button">Вперёд</button>
-        <button type="button" class="button">Назад</button>
+        <button type="button" class="page-main-slider__left-arrow-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
+          <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
+        </svg>
+        </button>
+
+        <button type="button" class="page-main-slider__right-arrow-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
+            <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
+          </svg>
+        </button>
       </div>
     </div>
   </section>

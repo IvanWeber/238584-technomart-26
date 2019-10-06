@@ -494,16 +494,6 @@ header {
   display: flex;
 }
 
-.slide h3 {
-  width: 210px;
-  height: 27px;
-  font-family: 'Cuprum', sans-serif;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: left;
-  line-height: 1;
-}
-
 /*page-header__page-header__top-sectionction*/
 
 .page-header__middle-section {
@@ -902,13 +892,13 @@ header {
 
 /* page-main-container */
 
-.page-main-container {
+.page-main {
   margin-top: 59px;
 }
 
 /* page-main-container__offers */
 
-.page-main-container__offers__container {
+.page-main-offers__container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -987,7 +977,7 @@ header {
   margin-top: 20px;
 }
 
-.page-main-container__offers .feature {
+.page-main__offers .feature {
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1003,25 +993,85 @@ header {
 
 /* page-main-container__offers */
 
-.slider {
+.page-main-slider {
   background: url(../img/drills.png) no-repeat;
   height: 266px;
   width: 620px;
   color: #ffffff;
   margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.slider p {
+.page-main-slider__slide {
+  height: 100%;
+  width: 100%;
+}
+
+.page-main-slider__drills-heading {
+  text-transform: uppercase;
   font-family: 'Cuprum', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  font-style: normal;
   line-height: 1;
-  color: #ffffff;
-  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  padding-top: 23px;
+  padding-left: 24px;
 }
 
-.slider .feature {
+.page-main-slider__drills-par {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffffff;
+  display: block;
+  margin: 0;
+  padding-top: 2px;
+  padding-left: 25px;
+}
+
+.page-main-slider__open-catalog-button {
+  display: block;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 11px 45px 9px 50px;
+  border-radius: 3px;
+  width: 195px;
+  position: absolute;
+  margin-top: 122px;
+  margin-left: 25px;
+}
+
+.page-main-slider__left-arrow-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 114px;
+  margin-left: 25px;
+}
+
+.page-main-slider__right-arrow-button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 114px;
+  margin-left: 578px;
+}
+
+.page-main-slider .feature {
   font-family: 'Cuprum', sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -1029,15 +1079,6 @@ header {
   line-height: 1.33;
   color: #ffffff;
   text-transform: none;
-}
-
-.slider a {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.29;
-  color: #ffffff;
 }
 
 /*page-main-container__popular*/
