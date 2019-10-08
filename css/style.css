@@ -942,8 +942,8 @@ header {
 }
 
 .page-main-container__offers__offer--materials {
-  background: url(../img/materials.png) no-repeat;
-  background-position: 212px;
+  background: url(../img/materials.png) 212px no-repeat,
+              url(../img/new-flag.png) 240px 0 no-repeat;
   background-color: #ffbf47;
 }
 
