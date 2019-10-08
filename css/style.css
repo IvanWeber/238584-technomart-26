@@ -159,7 +159,7 @@ header {
 
 .button {
   font-family: 'PT Sans', sans-serif;
-  background-color: #ff5357;
+  background-color: #ee3643;
   text-decoration: none;
   color: black;
 }
@@ -1143,15 +1143,17 @@ header {
 }
 
 /*page-main-container__popular*/
-.page-main-container__popular-products__header {
+.page-main__popular-products__header {
   background-color: #f9f5f0;
   height: 89px;
   margin-top: 53px;
+  display: flex;
+  align-items: flex-start;
 }
 
 /*page-main-container__popular-products__header*/
 
-.page-main-container__popular-products__header h2 {
+.page-main__heading {
   font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   font-weight: normal;
@@ -1159,19 +1161,46 @@ header {
   line-height: 1;
   color: #32425c;
   text-transform: uppercase;
-  margin: 0;
+  margin: 29px 0 0 28px;
 }
+
+.page-main__heading-block-button {
+  position: absolute;
+  display: block;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 11px 55px 9px 55px;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-left: 663px;
+}
+
+/* .page-main__popular-products__header h2 {*/
+/*  font-family: 'Cuprum', sans-serif;*/
+/*  font-size: 30px;*/
+/*  font-weight: normal;*/
+/*  font-style: normal;*/
+/*  line-height: 1;*/
+/*  color: #32425c;*/
+/*  text-transform: uppercase;*/
+/*  margin: 0;*/
+/*}*/
 
 /*page-main-container__popular-products__main*/
 
-.page-main-container__popular-products__main {
+.page-main__popular-products__main {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: 21px;
 }
 
-.page-main-container__popular-products__card {
+.page-main__popular-products__card {
   list-style-type: none;
   height: 318px;
   width: 220px;
@@ -1179,11 +1208,11 @@ header {
   border: solid 1px #eaeaea;
 }
 
-.page-main-container__popular-products__card:last-child {
+.page-main__popular-products__card:last-child {
   margin-right: 0;
 }
 
-.page-main-container__popular-products__card h3 {
+.page-main__popular-products__card h3 {
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
@@ -1191,7 +1220,7 @@ header {
   color: #000000;
 }
 
-.page-main-container__popular-products__card p {
+.page-main__popular-products__card p {
   font-size: 17px;
   font-weight: bold;
   font-style: normal;
@@ -1200,18 +1229,18 @@ header {
   color: #ffffff;
 }
 
-.page-main-container__popular-products__card .price {
+.page-main__popular-products__card .price {
   background-color: #ee3643;
   margin: 0;
 }
 
-.page-main-container__popular-products__card .old-price {
+.page-main__popular-products__card .old-price {
   text-decoration: line-through;
   color: #a9a9a9;
   margin: 0;
 }
 
-.page-main-container__popular-products__card .add-to-cart {
+.page-main__popular-products__card .add-to-cart {
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1223,7 +1252,7 @@ header {
   background-color: #63a63e;
 }
 
-.page-main-container__popular-products__card .add-to-favorites {
+.page-main__popular-products__card .add-to-favorites {
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1236,23 +1265,25 @@ header {
 
 /*page-main-container__popular-manufacturers*/
 
-.page-main-container__popular-manufacturers {
+.page-main__popular-manufacturers {
   margin-top: 21px;
 }
 
-.page-main-container__popular-manufacturers__header {
+.page-main__popular-manufacturers__header {
   background-color: #f9f5f0;
   height: 89px;
+  display: flex;
+  align-items: flex-start;
 }
 
-.page-main-container__popular-manufacturers__main {
+.page-main__popular-manufacturers__main {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: 18px;
 }
 
-.page-main-container__popular-manufacturers__card {
+.page-main__popular-manufacturers__card {
   list-style-type: none;
   height: 145px;
   width: 220px;
@@ -1262,38 +1293,20 @@ header {
   display: flex;
 }
 
-.page-main-container__popular-manufacturers__card-link {
+.page-main__popular-manufacturers__card-link {
   margin: auto;
 }
 
-.page-main-container__popular-manufacturers__img {
+.page-main__popular-manufacturers__img {
   margin: auto;
 }
 
-.page-main-container__popular-manufacturers h2 {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  color: #32425c;
-  text-transform: uppercase;
-  margin: 0;
+.page-main__heading-manufacturers-button {
+  padding: 10px 69px 10px 69px;
+  margin-top: 24px;
 }
 
-.page-main-container__popular-manufacturers > a {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.29;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  background-color: #ee3643;
-}
-
-.page-main-container__popular-manufacturers li {
+.page-main__popular-manufacturers li {
   list-style-type: none;
 }
 
