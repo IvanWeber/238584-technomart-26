@@ -1058,6 +1058,7 @@ header {
   position: absolute;
   margin-top: 114px;
   margin-left: 25px;
+  cursor: pointer;
 }
 
 .page-main-slider__right-arrow-button {
@@ -1069,7 +1070,67 @@ header {
   position: absolute;
   margin-top: 114px;
   margin-left: 578px;
+  cursor: pointer;
 }
+
+/* .slider-radio-button */
+
+.slider-radio-button-label {
+  position: absolute;
+
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.page-main-slider__first-slide-radio-label {
+  margin-left: 294px;
+  margin-top: 218px;
+}
+
+.page-main-slider__second-slide-radio-label {
+  margin-left: 314px;
+  margin-top: 218px;
+}
+
+.slider-radio-button:hover + .slider-radio-button-label,
+.slider-radio-button:focus + .slider-radio-button-label {
+  color: #663d15;
+}
+
+.slider-radio-button + .slider-radio-button-label::before {
+  content: "";
+  position: absolute;
+
+  top: 2px;
+  left: 1px;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background-color: white;
+}
+
+.slider-radio-button:checked + .slider-radio-button-label::after {
+  content: "";
+
+  position: absolute;
+
+  top: 4px;
+  left: 3px;
+
+  width: 12px;
+  height: 12px;
+
+  background-image: url("../img/slider-radiobutton.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/**/
 
 .page-main-slider .feature {
   font-family: 'Cuprum', sans-serif;
