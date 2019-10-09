@@ -1353,6 +1353,14 @@ header {
   display: flex;
 }
 
+.page-main__popular-manufacturers__card:hover {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.page-main__popular-manufacturers__card:active {
+  opacity: 0.3;
+}
+
 .page-main__popular-manufacturers__card-link {
   margin: auto;
 }
