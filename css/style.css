@@ -180,67 +180,6 @@ header {
   list-style-type: none;
 }
 
-.popular-products h2 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #32425c;
-    text-transform: uppercase;
-}
-
-.popular-products > a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    color: #ffffff;
-    background-color: #ee3643;
-    text-transform: uppercase;
-}
-
-.popular-products li, .products{
-    list-style-type: none;
-}
-
-.services h2 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-.services h3 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 36px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #32425c;
-}
-
-.services p {
-    font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.85;
-    color: #000000;
-}
-
-.services li a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 21px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 1.43;
-    color: #32425c;
-}
-
 .about-company h2 {
     font-family: 'Cuprum', sans-serif;
     font-size: 30px;
@@ -1374,30 +1313,95 @@ header {
   margin-top: 24px;
 }
 
-.page-main__popular-manufacturers li {
+.page-main__popular-manufacturers__card {
   list-style-type: none;
 }
 
 /* services */
 
-.services {
+.page-main__services {
   background-color: #f4f7f9;
-  margin-top: 62px;
+  margin-top: 66px;
   height: 522px;
 }
 
 .services__container {
-  height: 522px;
+  min-height: 522px;
   display: flex;
   flex-wrap: wrap;
-}
-
-.services__list--short {
-  height: 279px;
+  align-items: flex-start;
 }
 
 .services__list--detail {
   width: 627px;
+}
+
+.services__heading {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 65px 100% 0 0;
+}
+
+.services__par {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.85;
+  color: #000000;
+  margin: -29px 100% 0 0;
+  min-width: 398px;
+}
+
+.service__heading {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+}
+
+.service__par {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.85;
+  color: #000000;
+}
+
+.services__list--short {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services__link-item {
+  min-width: 240px;
+  padding: 5px 5px 5px 5px;
+  background-color: #32425c;
+}
+
+.services__link {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.43;
+  color: #ffffff;
+}
+
+.service__link {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.43;
+  color: #32425c;
 }
 
 /* about-company-wrap */
