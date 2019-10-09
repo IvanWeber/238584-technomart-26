@@ -1199,6 +1199,10 @@ header {
   align-items: flex-start;
 }
 
+.page-main__popular-products__card:hover {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
 .page-main__popular-products__card:hover .popular-products__product-img {
   display: none;
 }
@@ -1282,15 +1286,16 @@ header {
   opacity: 0.3;
 }
 
-.page-main__pop.page-main__popular-products__cardular-products__card .add-to-favorites {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.29;
-  text-align: center;
-  color: #32425c;
-  text-transform: uppercase;
+.popular-products__product-add-to-cart:hover {
+  background-color: #5fbb2d;
+}
+
+.popular-products__product-add-to-cart:active {
+  background-color: #518534;
+}
+
+.popular-products__product-add-to-cart:hover .popular-products__product-add-to-cart-svg {
+  opacity: 1;
 }
 
 .popular-products__product-add-to-favorites {
@@ -1308,6 +1313,14 @@ header {
   border: 3px solid #63a63e;
   border-radius: 3px;
   display: none;
+}
+
+.popular-products__product-add-to-favorites:hover {
+  border: 3px solid #32425c;
+}
+
+.popular-products__product-add-to-favorites:active {
+  opacity: 0.3;
 }
 
 /*page-main-container__popular-manufacturers*/
