@@ -188,75 +188,6 @@ header {
   list-style-type: none;
 }
 
-.about-company h2 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-.about-company p {
-    font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.85;
-    color: #000000;
-}
-
-.about-company li{
-    font-family: 'Cuprum', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.11;
-    color: #000000;
-}
-
-.about-company > a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #ee3643;
-}
-
-.contacts h2 {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 30px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    color: #000000;
-    text-transform: uppercase;
-}
-
-.contacts p {
-    font-size: 13px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.85;
-    color: #000000;
-}
-
-.contacts a {
-    font-family: 'Cuprum', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.29;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #ee3643;
-}
-
 .category-selection {
     font-size: 15px;
     font-weight: normal;
@@ -1418,7 +1349,7 @@ header {
   letter-spacing: normal;
   text-transform: uppercase;
   color: #ffffff;
-  border-radius: 4px;
+  border-radius: 3px;
   padding: 11px 44px 9px 45px;
   margin: 26px 0px 0px 77px;
 }
@@ -1493,13 +1424,128 @@ header {
 
 /* about-company-wrap */
 
-.about-company-wrap {
+.page-main__about-company {
   display: flex;
-  min-height: 534px;
+  min-height: 536px;
 }
 
-.about-company-wrap h2 {
-  margin: 0;
+.about-company__company-info {
+  display: inline-block;
+  max-width: 512px;
+}
+
+.about-company__contacts {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 423px;
+}
+
+.company-info__heading {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 79px 0 0 1px;
+}
+
+.company-info__par {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.85;
+  color: #000000;
+  margin: 25px 0 0 1px;
+}
+
+.company-info__menu-list {
+  list-style-type: none;
+  margin: 21px 0 0 0;
+  padding: 0;
+}
+
+.company-info__list-item {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.11;
+  color: #000000;
+  margin: 0 0 21px 0;
+}
+
+.company-info__list-item::before {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 25px;
+  background-image: url(../img/list-bullet.png);
+  margin: 0px 12px 4px 0px;
+}
+
+/*li {*/
+/*   background: url(images/bullet.gif) no-repeat left top; !* <-- change `left` & `top` too for extra control *!*/
+/*   padding: 3px 0px 3px 10px;*/
+/*   !* reset styles (optional): *!*/
+/*   list-style: none;*/
+/*   margin: 0;*/
+/* }*/
+
+.company-info__button-more-info {
+  display: inline-block;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+  border-radius: 3px;
+  padding: 11px 40px 9px 41px;
+  margin: 16px 0 0 0;
+}
+
+.contacts__heading {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 79px 0 0 123px;
+}
+
+.contacts__par {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.85;
+  color: #000000;
+  margin: 26px 0 0 123px;
+}
+
+.contacts__yandex-map {
+  margin: 32px 0 0 123px;
+}
+
+.contacts__feedback-button {
+  display: inline-block;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  margin: 32px 0px 0px 123px;
+  padding: 10px 59px 9px 64px;
 }
 
 /* Страница каталога */
