@@ -316,14 +316,14 @@ header {
   margin-left: 7px;
 }
 
-.page-header__search-svg-element-wrap {
-  padding-top: 12px;
-  padding-left: 10px;
+.page-header__search-svg-element {
+  position: absolute;
+  margin: 13px 0 0 10px;
 }
 
 .page-header__search-form-label {
   padding-top: 9px;
-  margin-left: 15px;
+  margin-left: 42px;
 }
 
 .page-header__favorites {
@@ -344,20 +344,25 @@ header {
 }
 
 .page-header__cart {
-  margin-left: 46px;
+  padding: 9px 25px 9px 23px;
+  margin-left: 28px;
 }
 
-.page-header__cart-svg-element-wrap {
-  padding-top: 1px;
+.page-header__cart--filled {
+  background-color: #ee3643;
+}
+
+.page-header__cart-svg-element {
+  position: absolute;
+  margin: 4px 0 0 -5px;
 }
 
 .page-header__cart-text-content {
   margin: 0;
-  margin-left: 16px;
+  margin-left: 26px;
 }
 
 .page-header__create-order {
-  margin-left: 30px;
   background-color: #63a63e;
   text-align: center;
   padding-top: 10px;
@@ -368,8 +373,8 @@ header {
 .page-header__link {
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
-  padding-top: 9px;
   display: flex;
+  padding-top: 9px;
 }
 
 /*page-header__page-header__top-sectionction*/
@@ -1484,14 +1489,6 @@ header {
   background-image: url(../img/list-bullet.png);
   margin: 0px 12px 4px 0px;
 }
-
-/*li {*/
-/*   background: url(images/bullet.gif) no-repeat left top; !* <-- change `left` & `top` too for extra control *!*/
-/*   padding: 3px 0px 3px 10px;*/
-/*   !* reset styles (optional): *!*/
-/*   list-style: none;*/
-/*   margin: 0;*/
-/* }*/
 
 .company-info__button-more-info {
   display: inline-block;
