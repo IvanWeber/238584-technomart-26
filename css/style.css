@@ -1702,34 +1702,28 @@ header {
 /*catalog-main__header-block-perforators*/
 
 .catalog-main__header-block-perforators {
-  display: flex;
+  margin-top: 20px;
 }
 
-.catalog-main__header-perforators {
-  margin: 0;
+.catalog-main__heading-perforators {
+  margin: 29px 0 0 28px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
 }
 
 .catalog-main__header-perforators-container {
   height: 89px;
-  font-family: 'Cuprum', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  color: #32425c;
-  text-transform: uppercase;
   background-color: #f2f6f8;
+  padding-top: 1px;
 }
 
 .catalog-main__header-perforators-container h1 {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
-  color: #32425c;
-  text-transform: uppercase;
-  background-color: #f2f6f8;
 }
 
 /* catalog-main__main-catalog-wrapper */
