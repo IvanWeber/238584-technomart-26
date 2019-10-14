@@ -1941,11 +1941,15 @@ header {
 }
 
 .sort-by-ascending {
-  margin-left: 46px;
+  margin-left: 44px;
+  margin-top: -1px;
+  font-size: 15px;
 }
 
 .sort-by-descending {
-  margin-left: 21px;
+  margin-left: 17px;
+  margin-top: -1px;
+  font-size: 15px;
 }
 
 .products__products-list {
@@ -1954,6 +1958,57 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
+/**/
+
+
+.sorter-radio-button-label {
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgba(238, 54, 67, 1);;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sorter-radio-button:hover + .sorter-radio-button-label,
+.sorter-radio-button:focus + .sorter-radio-button-label {
+  color: #663d15;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ee3643;
+  opacity: 1;
+}
+
+.sorter-radio-button + .sorter-radio-button-label {
+}
+
+.sorter-radio-button:checked + .sorter-radio-button-label {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+/* up-down-sorters */
+
+
+.up-down-sorter-radio-button-label {
+  cursor: pointer;
+  color: #c5c5c5;
+}
+
+.up-down-sorter-radio-button:hover + .up-down-sorter-radio-button-label,
+.up-down-sorter-radio-button:focus + .up-down-sorter-radio-button-label {
+  color: #663d15;
+  opacity: 1;
+}
+
+.up-down-sorter-radio-button + .up-down-sorter-radio-button-label {
+}
+
+.up-down-sorter-radio-button:checked + .up-down-sorter-radio-button-label {
+  color: #ee3643;
+}
+
+
 
 /* category-selection */
 

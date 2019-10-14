@@ -166,11 +166,28 @@
     <section class="catalog-main__products products">
       <div class="products__sort">
         <h2 class="main-catalog__heading-sort">Сортировка:</h2>
-        <a href="#" class="sort-by-price">По цене</a>
-        <a href="#" class="sort-by-type">По типу</a>
-        <a href="#" class="sort-by-functional">По функционалу</a>
-        <a href="#" class="sort-by-ascending"><img alt="по возрастанию" src="img/icon-up-dir.png"></a>
-        <a href="#" class="sort-by-descending "><img alt="по убыванию" src="img/icon-down-dir.png"></a>
+<!--        <a href="#" class="sort-by-price">По цене</a>-->
+<!--        <a href="#" class="sort-by-type">По типу</a>-->
+<!--        <a href="#" class="sort-by-functional">По функционалу</a>-->
+<!--        <a href="#" class="sort-by-ascending"><img alt="по возрастанию" src="img/icon-up-dir.png"></a>-->
+<!--        <a href="#" class="sort-by-descending "><img alt="по убыванию" src="img/icon-down-dir.png"></a>-->
+
+
+        <input class="visually-hidden page-main-slider__first-slide-radio-button sorter-radio-button" type="radio" id="sort-by-price-slide" name="sort-type">
+        <label class="sort-by-price sorter-radio-button-label" for="sort-by-price-slide">По цене</label>
+
+        <input class="visually-hidden page-main-slider__second-slide-radio-button sorter-radio-button" type="radio" id="second-sort-by-type" name="sort-type">
+        <label class="sort-by-type sorter-radio-button-label" for="second-sort-by-type">По типу</label>
+
+        <input class="visually-hidden page-main-slider__first-slide-radio-button sorter-radio-button" type="radio" id="sort-by-functional" name="sort-type">
+        <label class="sort-by-functional sorter-radio-button-label" for="sort-by-functional">По функционалу</label>
+
+        <input class="visually-hidden page-main-slider__second-slide-radio-button up-down-sorter-radio-button" type="radio" id="sort-by-ascending" name="up-down-sort">
+        <label class="sort-by-ascending up-down-sorter-radio-button-label" for="sort-by-ascending">▲</label>
+
+        <input class="visually-hidden page-main-slider__second-slide-radio-button up-down-sorter-radio-button" type="radio" id="sort-by-descending" name="up-down-sort">
+        <label class="sort-by-descending up-down-sorter-radio-button-label" for="sort-by-descending">▼</label>
+
       </div>
       <ul class="products__products-list">
         <li class="page-main__popular-products__card">
