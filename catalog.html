@@ -103,7 +103,7 @@
 <main class="catalog-main">
   <div class="catalog-main__breadcrumb-container container">
     <ul class="catalog-main__breadcrumb breadcrumb">
-      <li class="breadcrumb__breadcrumb-item"><a class="breadcrumb__breadcrumb-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
+      <li class="breadcrumb__breadcrumb-item breadcrumb__breadcrumb-item-home"><a class="breadcrumb__breadcrumb-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12">
         <g fill="#C1C6CE">
           <path d="M3 8v4h4V8h2v4h4V8L8 3.516z"/>
           <path d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z"/>
@@ -126,11 +126,26 @@
     </div>
   </div>
 
-  <div class="catalog-main__main-catalog-wrapper container">
-    <form class="category-selection" action="catalog.html" method="get">
-      <fieldset>
-        <input type="text" name="bottom-limit" class="bottom-price-limit">
-        <input type="text" name="top-limit" class="top-price-limit">
+  <div class="catalog-main__main-catalog main-catalog container">
+    <form class="category-selection" action="https://echo.htmlacademy.ru" method="get">
+      <h2 class="main-catalog__heading-filter">Фильтр:</h2>
+      <fieldset class="range-filter-fieldset">
+        <legend>Цена:</legend>
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar" style="margin-left: 20%; width: 30%"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price"><input name="min-price" type="text" value="0"></label>
+            <label class="max-price">—<input name="max-price" type="text" value="30000"></label>
+          </div>
+        </div>
+<!--        <input type="text" name="bottom-limit" class="bottom-price-limit">-->
+<!--        <input type="text" name="top-limit" class="top-price-limit">-->
       </fieldset>
       <fieldset>
         <legend>Производители:</legend>
@@ -148,13 +163,16 @@
       </fieldset>
       <button class="show-products button" type="submit">Показать</button>
     </form>
-    <section class="products">
-      <p>Сортировка:</p>
-      <a href="#" class="sort-by-price">По цене</a>
-      <a href="#" class="sort-by-type">По типу</a>
-      <a href="#" class="sort-by-functional">По функционалу</a>
-      <h2 class="visually-hidden">Товары</h2>
-      <ul class="products">
+    <section class="catalog-main__products products">
+      <div class="products__sort">
+        <h2 class="main-catalog__heading-sort">Сортировка:</h2>
+        <a href="#" class="sort-by-price">По цене</a>
+        <a href="#" class="sort-by-type">По типу</a>
+        <a href="#" class="sort-by-functional">По функционалу</a>
+        <a href="#" class="sort-by-ascending"><img alt="по возрастанию" src="img/icon-up-dir.png"></a>
+        <a href="#" class="sort-by-descending "><img alt="по убыванию" src="img/icon-down-dir.png"></a>
+      </div>
+      <ul class="products__products-list">
         <li class="page-main__popular-products__card">
           <img src="img/item1.jpg" class="popular-products__product-img" alt="product picture" width="218" height="170">
           <a href="#" class="popular-products__product-add-to-cart">
