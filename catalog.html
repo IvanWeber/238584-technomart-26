@@ -134,14 +134,15 @@
         <div class="range-filter">
           <div class="range-controls">
             <div class="scale">
-              <div class="bar" style="margin-left: 20%; width: 30%"></div>
+              <div class="bar" style="margin-left: 0; width: 80%"></div>
             </div>
             <div class="toggle toggle-min"></div>
             <div class="toggle toggle-max"></div>
           </div>
           <div class="price-controls">
             <label class="min-price"><input name="min-price" type="text" value="0"></label>
-            <label class="max-price">—<input name="max-price" type="text" value="30000"></label>
+            <p class="price-dash">—</p>
+            <label class="max-price"><input name="max-price" type="text" value="30000"></label>
           </div>
         </div>
 <!--        <input type="text" name="bottom-limit" class="bottom-price-limit">-->
@@ -166,12 +167,6 @@
     <section class="catalog-main__products products">
       <div class="products__sort">
         <h2 class="main-catalog__heading-sort">Сортировка:</h2>
-<!--        <a href="#" class="sort-by-price">По цене</a>-->
-<!--        <a href="#" class="sort-by-type">По типу</a>-->
-<!--        <a href="#" class="sort-by-functional">По функционалу</a>-->
-<!--        <a href="#" class="sort-by-ascending"><img alt="по возрастанию" src="img/icon-up-dir.png"></a>-->
-<!--        <a href="#" class="sort-by-descending "><img alt="по убыванию" src="img/icon-down-dir.png"></a>-->
-
 
         <input class="visually-hidden page-main-slider__first-slide-radio-button sorter-radio-button" type="radio" id="sort-by-price-slide" name="sort-type">
         <label class="sort-by-price sorter-radio-button-label" for="sort-by-price-slide">По цене</label>

@@ -1777,13 +1777,14 @@ header {
 
 .range-filter {
   box-sizing: content-box;
-  width: 244px;
-  margin-top: 49px;
+  width: 220px;
+  margin-top: 14px;
+  margin-left: 2px;
 }
 
 .range-filter-fieldset {
   border: none;
-  margin: 0;
+  margin: 7px 0 0 -2px;
   padding: 0;
 }
 
@@ -1804,7 +1805,7 @@ header {
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1852,11 +1853,11 @@ header {
 }
 
 .range-controls .toggle-min {
-  left: 50px;
+  left: 20px;
 }
 
 .range-controls .toggle-max {
-  left: 110px;
+  left: 160px;
 }
 
 .price-controls {
@@ -1865,7 +1866,7 @@ header {
 
 .price-controls label {
   display: inline-block;
-  width: 50%;
+  width: 95px;
 
   font-size: 16px;
   text-transform: uppercase;
@@ -1873,17 +1874,23 @@ header {
 
 .price-controls input {
   width: 60px;
-  padding: 8px 10px;
-  margin-left: 10px;
+  padding: 7px 17px 9px 19px;
+  margin-left: 0;
 
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   color: #283136;
 
   border: none;
   border-radius: 5px;
   background: #f7f3ec;
+}
+
+.price-dash {
+  font-size: 17px;
+  margin: 0 8px 0 8px;
+  display: inline-block;
 }
 
 .max-price {
@@ -1905,7 +1912,7 @@ header {
   color: #000000;
   display: flex;
   background-color: #f7f3ec;
-  margin: 20px 0 0 -4px;
+  margin: 20px 0 0 20px;
   padding-top: 10px;
   border-radius: 3px;
   text-transform: uppercase;
