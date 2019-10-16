@@ -2152,9 +2152,12 @@ header {
 
 .a-few-words-about-perforators {
   background-color: #f4f7f9;
+  margin-top: 60px;
+  padding-top: 1px;
+  padding-bottom: 68px;
 }
 
-.a-few-words-about-perforators h2 {
+.a-few-words-about-perforators-heading {
   font-family: 'Cuprum', sans-serif;
   font-size: 30px;
   font-weight: normal;
@@ -2162,12 +2165,14 @@ header {
   line-height: 1;
   color: #32425c;
   text-transform: uppercase;
+  margin: 64px 0 0 2px;
 }
 
-.a-few-words-about-perforators p {
+.a-few-words-about-perforators-par {
   font-size: 13px;
   line-height: 1.85;
   color: #000000;
+  margin: 26px 0 0 1px;
 }
 
 
