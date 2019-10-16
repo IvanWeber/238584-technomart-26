@@ -1971,18 +1971,26 @@ header {
 }
 
 .show-products {
+  display: inline-block;
   font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
   line-height: 1.38;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
-
   width: 140px;
   height: 38px;
   border: solid 1px #e5e5e5;
   background-color: #ffffff;
+  padding: 9px 0 0 0;
+  cursor: pointer;
+}
+
+.show-products:hover, .show-products:focus {
+  border: solid 1px #bdc6ca;
+}
+
+.show-products:focus:active {
+  border: solid 1px #ee3643;
 }
 
 .category-selection .pagination li {
