@@ -1011,10 +1011,15 @@ header {
   list-style-type: none;
   height: 318px;
   width: 220px;
-  margin-right: 12px;
+  margin: 20px 12px 0 8px;
   border: solid 1px #eaeaea;
   display: flex;
   align-items: flex-start;
+}
+
+.page-main__popular-products__card--new:after {
+  content: url(../img/new-flag.png);
+  margin: -1px 0 0 -59px;
 }
 
 .page-main__popular-products__card:hover {
