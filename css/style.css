@@ -1004,7 +1004,7 @@ header {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 21px;
+  margin: 0 0 0 -8px;
 }
 
 .page-main__popular-products__card {
