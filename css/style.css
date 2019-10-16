@@ -1022,6 +1022,11 @@ header {
   margin: -1px 0 0 -59px;
 }
 
+.page-main__popular-products__card--new:hover:after {
+  content: url(../img/new-flag.png);
+  margin: 0 0 0 159px;
+}
+
 .page-main__popular-products__card:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
