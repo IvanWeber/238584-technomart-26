@@ -150,18 +150,24 @@
       <div class="divider"></div>
       <fieldset class="catalog-main__producer">
         <legend>Производители:</legend>
-        <label><input type="checkbox" name="Bosch" class="checkbox-square manufacturers">Bosch</label>
-        <label><input type="checkbox" name="Bosch" class="checkbox-square manufacturers">Bosch</label>
-        <label><input type="checkbox" name="Интерскол" class="checkbox-square manufacturers">Интерскол</label>
-        <label><input type="checkbox" name="Makita" class="checkbox-square manufacturers">Makita</label>
-        <label><input type="checkbox" name="Dewalt" class="checkbox-square manufacturers">Dewalt</label>
-        <label><input type="checkbox" name="Hitachi" class="checkbox-square manufacturers">Hitachi</label>
+        <input type="checkbox" name="Bosch" class="manufacturers-checkbox-input manufacturers visually-hidden" id="bosch">
+        <label class="manufacturers-checkbox-label" for="bosch">Bosch</label>
+        <input type="checkbox" name="Интерскол" class="manufacturers-checkbox-input manufacturers visually-hidden" id="interscol">
+        <label class="manufacturers-checkbox-label" for="interscol">Интерскол</label>
+        <input type="checkbox" name="Makita" class="manufacturers-checkbox-input manufacturers visually-hidden" id="makita">
+        <label class="manufacturers-checkbox-label" for="makita">Makita</label>
+        <input type="checkbox" name="Dewalt" class="manufacturers-checkbox-input manufacturers visually-hidden" id="dewalt">
+        <label class="manufacturers-checkbox-label" for="dewalt">Dewalt</label>
+        <input type="checkbox" name="Hitachi" class="manufacturers-checkbox-input manufacturers visually-hidden" id="hitachi">
+        <label class="manufacturers-checkbox-label" for="hitachi">Hitachi</label>
       </fieldset>
       <div class="divider"></div>
       <fieldset class="catalog-main__power">
         <legend>Питание:</legend>
-        <label><input type="radio" name="power" value="battery" class="checkbox-round">Аккумуляторные</label>
-        <label><input type="radio" name="power" value="wired" class="checkbox-round">Сетевые</label>
+        <input class="power-radiobutton-input visually-hidden" id="battery" type="radio" name="power" value="battery">
+        <label class="power-radiobutton-label" for="battery">Аккумуляторные</label>
+        <input class="power-radiobutton-input visually-hidden" id="wired" type="radio" name="power" value="wired">
+        <label class="power-radiobutton-label" for="wired">Сетевые</label>
       </fieldset>
       <button class="show-products button" type="submit">Показать</button>
     </form>
