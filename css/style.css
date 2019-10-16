@@ -1932,8 +1932,15 @@ header {
 
 /* category-selection */
 
-.divider {
+.divider-1 {
   margin-top: 25px;
+  width: 220px;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+
+.divider-2 {
+  margin-top: 13px;
   width: 220px;
   height: 1px;
   background-color: #e6e6e6;
@@ -1946,10 +1953,23 @@ header {
   margin-left: -13px;
 }
 
+.power-heading {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.76;
+  letter-spacing: 0.17px;
+  text-align: left;
+  color: #000000;
+}
+
 .catalog-main__power {
   border: none;
   display: flex;
   margin-left: -13px;
+  margin-top: 18px;
 }
 
 .category-selection {
@@ -1983,6 +2003,7 @@ header {
   background-color: #ffffff;
   padding: 9px 0 0 0;
   cursor: pointer;
+  margin-top: 71px;
 }
 
 .show-products:hover, .show-products:focus {
@@ -2012,8 +2033,18 @@ header {
 
 /*producer-checkboxes*/
 
-.manufacturers-checkbox-label:before {
+.manufacturers-checkbox-label {
+  margin: 9px 0 21px 36px;
+}
+
+.last-checkbox-label {
+  margin-bottom: 0;
+}
+
+.manufacturers-checkbox-input + .manufacturers-checkbox-label:before {
   content: url(../img/checkbox-off-rest.svg);
+  position: absolute;
+  margin: -1px 0 0 -34px;
 }
 
 .manufacturers-checkbox-input:checked + .manufacturers-checkbox-label:before {
@@ -2032,8 +2063,19 @@ header {
 
 /*power-type-radiobuttons*/
 
+.power-radiobutton-label {
+  margin: 9px 0 21px 36px;
+}
+
+.last-radiobutton-label {
+  margin-bottom: 0;
+  margin-bottom: 0;
+}
+
 .power-radiobutton-input + .power-radiobutton-label:before {
   content: url(../img/radio-off-rest.svg);
+  position: absolute;
+  margin: -1px 0 0 -34px;
 }
 
 .power-radiobutton-input:checked + .power-radiobutton-label:before {
