@@ -115,17 +115,23 @@
           </a>
         </div>
       </div>
+
+      <input class="visually-hidden page-main-slider__first-slide-radio-button slider-radio-button" type="radio"
+             id="first-slide" name="slide-number" checked>
+      <label class="page-main-slider__first-slide-radio-label slider-radio-button-label" for="first-slide"></label>
+      <input class="visually-hidden page-main-slider__second-slide-radio-button slider-radio-button" type="radio"
+             id="second-slide" name="slide-number">
+      <label class="page-main-slider__second-slide-radio-label slider-radio-button-label" for="second-slide"></label>
       <div class="page-main-offers__slider page-main-slider">
-        <div class="page-main-slider__slide">
+        <div class="page-main-slider__slide" id="catalog-slide-1">
           <h3 class="page-main-slider__drills-heading">Дрели</h3>
           <p class="page-main-slider__drills-par">Соседям на радость!</p>
           <a class="button page-main-slider__open-catalog-button" href="#">Открыть каталог</a>
         </div>
-        <div class="slide visually-hidden">
-          <h3>Перфораторы</h3>
-          <img class="slider-img" src="./img/perforators.png" alt="Перфораторы">
-          <p class="feature">Настоящие мужские игрушки</p>
-          <a href="#">Открыть каталог</a>
+        <div class="slide" id="catalog-slide-2">
+          <h3 class="page-main-slider__drills-heading">Перфораторы</h3>
+          <p class="page-main-slider__drills-par feature">Настоящие мужские игрушки</p>
+          <a class="button page-main-slider__open-catalog-button" href="#">Открыть каталог</a>
         </div>
         <button type="button" class="page-main-slider__left-arrow-button">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
@@ -138,13 +144,6 @@
             <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
           </svg>
         </button>
-
-        <input class="visually-hidden page-main-slider__first-slide-radio-button slider-radio-button" type="radio"
-               id="first-slide" name="slide-number">
-        <label class="page-main-slider__first-slide-radio-label slider-radio-button-label" for="first-slide"></label>
-        <input class="visually-hidden page-main-slider__second-slide-radio-button slider-radio-button" type="radio"
-               id="second-slide" name="slide-number">
-        <label class="page-main-slider__second-slide-radio-label slider-radio-button-label" for="second-slide"></label>
 
       </div>
     </div>

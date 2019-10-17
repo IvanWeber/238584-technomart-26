@@ -1108,6 +1108,30 @@ header {
   cursor: pointer;
 }
 
+#first-slide:checked ~ .page-main-slider {
+  background: url(../img/drills.png) no-repeat;;
+}
+
+#second-slide:checked ~ .page-main-slider {
+  background: url(../img/perforators.png) no-repeat;;
+}
+
+#first-slide:checked ~ .page-main-slider > #catalog-slide-1 {
+  display: block;
+}
+
+#first-slide:checked ~ .page-main-slider > #catalog-slide-2 {
+  display: none;
+}
+
+#second-slide:checked ~ .page-main-slider > #catalog-slide-1 {
+  display: none;
+}
+
+#second-slide:checked ~ .page-main-slider > #catalog-slide-2 {
+  display: block;
+}
+
 /* .slider-radio-button */
 
 .slider-radio-button-label {
@@ -1121,12 +1145,12 @@ header {
 
 .page-main-slider__first-slide-radio-label {
   margin-left: 294px;
-  margin-top: 218px;
+  margin-top: 361px;
 }
 
 .page-main-slider__second-slide-radio-label {
   margin-left: 314px;
-  margin-top: 218px;
+  margin-top: 361px;
 }
 
 .slider-radio-button:hover + .slider-radio-button-label,
@@ -1598,7 +1622,6 @@ header {
   color: #32425c;
   border: 0;
 }
-
 
 /* about-company-wrap */
 
