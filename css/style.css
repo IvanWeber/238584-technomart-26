@@ -849,6 +849,10 @@ header {
   list-style-type: none;
 }
 
+.soc-link:hover {
+  background-color: #ee3643;
+}
+
 .soc-network-list-item-facebook {
   margin-left: 3px;
 }
@@ -883,6 +887,24 @@ header {
 
 .page-footer__feedback-link, .page-footer__developer-link {
   color: #ffd180;
+}
+
+.page-footer__feedback-link:hover {
+  text-decoration: underline;
+}
+
+.page-footer__feedback-link:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+.page-footer__developer-link:hover {
+  text-decoration: underline;
+}
+
+.page-footer__developer-link:active {
+  color: #ee3643;
+  text-decoration: none;
 }
 
 .page-footer__feedback {
