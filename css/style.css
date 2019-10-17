@@ -729,6 +729,15 @@ header {
   padding-top: 17px;
 }
 
+.footer-main-menu-link:hover {
+  text-decoration: underline;
+}
+
+.footer-main-menu-link:active {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
 /* page-footer__middle-section */
 
 .page-footer__middle-section {
