@@ -784,6 +784,16 @@ header {
   font-style: normal;
   line-height: 1.33;
   color: #ffd180;
+  opacity: 1;
+}
+
+.category-menu-item-link:hover {
+  text-decoration: underline;
+}
+
+.category-menu-item-link:active {
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 .category-menu-item-materials {
