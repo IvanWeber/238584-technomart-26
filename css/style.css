@@ -252,6 +252,10 @@ header {
   border: none;
 }
 
+.page-header__search-form-input--category {
+
+}
+
 .page-header__search-form-input:focus {
   background-color: #ffffff;
   border: none;
@@ -279,6 +283,10 @@ header {
 
 .page-header__favorites {
   margin-left: 27px;
+}
+
+.page-header__favorites--category {
+  margin-left: 22px;
 }
 
 .page-header__favorites-svg-element-wrap {
