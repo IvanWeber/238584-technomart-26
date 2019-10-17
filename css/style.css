@@ -496,6 +496,7 @@ header {
   margin-top: 2px;
   margin-left: -1px;
   margin-right: 13px;
+  color: #c5c5c5;
 }
 
 .page-header__user-menu {
@@ -520,6 +521,29 @@ header {
   display: flex;
 }
 
+.page-header__user-menu-item-link-enter:before {
+  content: url(../img/icon-login-rest.svg);
+  margin: 2px 13px 0 -1px;
+}
+
+.page-header__user-menu-item-link-enter:hover:before {
+  content: url(../img/icon-login.svg);
+  margin: 2px 13px 0 -1px;
+}
+
+.page-header__user-menu-item-link-enter:active:before {
+  content: url(../img/icon-login-rest.svg);
+  margin: 2px 13px 0 -1px;
+}
+
+.page-header__user-menu-item-link-enter:hover {
+  color: #ee3643;
+}
+
+.page-header__user-menu-item-link-enter:active {
+  color: #c5c5c5;
+}
+
 .page-header__user-menu-item-link-registration {
   font-family: 'Cuprum', sans-serif;
   font-size: 21px;
@@ -534,6 +558,14 @@ header {
   margin-right: -3px;
   margin-top: 0;
   display: inline-block;
+}
+
+.page-header__user-menu-item-link-registration:hover {
+  color: #ee3643;
+}
+
+.page-header__user-menu-item-link-registration:active {
+  color: #c5c5c5;
 }
 
 /* page-header__nav-top */
@@ -1671,14 +1703,27 @@ header {
   opacity: 0.3;
 }
 
+/*.user-menu__item-logout {*/
+/*  margin: 14px 0 0 15px;*/
+/*}*/
+
 .user-menu__logout-link {
-  padding: 5px 12px 25px 33px;
+  display: inline-block;
+  padding: 16px 9px 6px 15px;
   background-color: #ffffff;
+  margin: -2px 0 0 0;
 }
 
-.user-menu__logout-link-svg {
-  position: absolute;
-  margin: 14px 0 0 -18px;
+.user-menu__logout-link:after {
+  content: url(../img/icon-logout-rest.svg);
+}
+
+.user-menu__logout-link:hover:after {
+  content: url(../img/icon-logout.svg);
+}
+
+.user-menu__logout-link:active:after {
+  content: url(../img/icon-logout-rest.svg);
 }
 
 .user-menu__my-orders-link {
@@ -1694,6 +1739,14 @@ header {
   text-align: left;
   color: #32425c;
   text-decoration: underline;
+}
+
+.user-menu__my-orders-link:hover {
+  color: #ee3643;
+}
+
+.user-menu__my-orders-link:active {
+  color: rgba(50, 66, 92, 0.3);
 }
 
 .user-menu__personal-area-link {
@@ -1712,17 +1765,25 @@ header {
   margin-left: 15px;
 }
 
+.user-menu__personal-area-link:hover {
+  color: #ee3643;
+}
+
+.user-menu__personal-area-link:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
 .user-menu__personal-area-link-svg {
   position: absolute;
   margin: 9px 0 0 -17px;
 }
 
 .user-menu__item-my-orders {
-  margin: 14px 0 0 21px;
+  margin: 5px 0 0 21px;
 }
 
 .user-menu__item-personal-area {
-  margin: 14px 0 0 17px;
+  margin: 5px 0 0 17px;
 }
 
 /*catalog-main__breadcrumb*/
