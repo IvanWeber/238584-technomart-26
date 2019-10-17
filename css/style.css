@@ -923,6 +923,14 @@ header {
   border-radius: 3px;
 }
 
+.page-main__offer-link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.page-main__offer-link:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .page-main__offer-link-par {
   margin: auto;
 }
@@ -1505,6 +1513,17 @@ header {
   cursor: pointer;
   border-top: 1px solid #3E4F69;
   border-bottom: 1px solid #273348;
+}
+
+.services__link:hover {
+  background-color: #293449;
+}
+
+.services__link:active {
+  color: #32425c;
+  background-color: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .service__link {
