@@ -425,18 +425,41 @@
   </div>
 </footer>
 
-<div class="feedback complete-unavailability">
-  <form>
-    <label for="name-field">Ваше имя</label>
-    <input id="name-field" type="text" placeholder="Имя Фамилия">
-    <label for="email-field">Ваш e-mail</label>
-    <input id="email-field" type="email" placeholder="email@example.com">
-    <label for="message-content-field">Текст письма</label>
-    <input id="message-content-field" type="text" placeholder="В свободной форме">
-    <button type="button" class="close-button button">Закрыть</button>
-    <button type="submit" class="send-message button">Отправить</button>
+<section class="modal modal-coordinates">
+  <button class="modal-close" type="button"></button>
+  <form class="modal-coordinates-form">
+    <div class="modal-top-section">
+      <div class="name-field-div">
+        <label class="name-field-label field-label" for="name-field">Ваше имя:</label>
+        <input class="name-field-input field-input" id="name-field" type="text" placeholder="Имя Фамилия">
+      </div>
+      <div class="email-field-div">
+        <label class="email-field-label field-label" for="email-field">Ваш e-mail:</label>
+        <input class="email-field-input field-input" id="email-field" type="email" placeholder="email@example.com">
+      </div>
+      <div class="message-content-field-div">
+        <label class="message-field-label field-label" for="message-content-field">Текст письма:</label>
+        <input class="message-field-input field-input" id="message-content-field" type="text"
+               placeholder="В свободной форме">
+      </div>
+    </div>
+    <div class="send-message-button-div">
+      <button type="submit" class="send-message button">Отправить</button>
+    </div>
   </form>
-</div>
+</section>
+
+<!--<div class="feedback complete-unavailability">-->
+<!--  <form>-->
+<!--    <label for="name-field">Ваше имя</label>-->
+<!--    <input id="name-field" type="text" placeholder="Имя Фамилия">-->
+<!--    <label for="email-field">Ваш e-mail</label>-->
+<!--    <input id="email-field" type="email" placeholder="email@example.com">-->
+<!--    <label for="message-content-field">Текст письма</label>-->
+<!--    <input id="message-content-field" type="text" placeholder="В свободной форме">-->
+<!--    <button type="submit" class="send-message button">Отправить</button>-->
+<!--  </form>-->
+<!--</div>-->
 <div class="item-successfully-added complete-unavailability">
   <div><p>Товар добавлен в корзину!</p></div>
   <div>

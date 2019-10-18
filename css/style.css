@@ -2455,4 +2455,134 @@ header {
   margin: 26px 0 0 1px;
 }
 
+/* modal-sections */
 
+.modal {
+  position: fixed;
+
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.modal-top-section {
+  padding: 44px 80px 0 80px;
+}
+
+.modal-coordinates {
+  top: 349px;
+  left: 508px;
+
+  width: 620px;
+  min-height: 430px;
+  border-top: 7px solid #ee3643;
+}
+
+.modal-close {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+
+  width: 22px;
+  height: 22px;
+
+  background-color: transparent;
+  border: 0;
+
+  cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+
+  position: absolute;
+  top: 9px;
+  left: -2px;
+  width: 27px;
+  height: 4px;
+
+  background-color: #ee3643;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
+.field-label {
+  width: 79px;
+  height: 13px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  margin-left: 1px;
+}
+
+.field-input {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.38;
+  margin: 5px 0 0 0;
+  padding: 6px 0 9px 13px;
+  border: 2px solid #dee3e4;
+  border-radius: 3px;
+  color: #000000;
+}
+
+.name-field-input {
+  padding-right: 51px;
+}
+
+.email-field-input {
+  padding-right: 51px;
+}
+.message-field-input {
+  padding: 8px 291px 86px 13px;
+}
+
+.send-message {
+  border: none;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 11px 199px 9px 199px;
+  border-radius: 4px;
+}
+
+.name-field-div {
+  display: inline-block;
+  width: 215px;
+  margin: 2px 0 0 0;
+}
+
+.email-field-div {
+  display: inline-block;
+  width: 215px;
+  margin-left: 21px;
+}
+
+.message-content-field-div {
+  margin: 20px 0 0 0;
+}
+
+.modal-coordinates-form {
+  height: 100%;
+}
+
+.send-message-button-div {
+  background-color: #f4f4f4;
+  height: 112px;
+  margin-top: 37px;
+  padding: 37px 0 0 80px;
+}
