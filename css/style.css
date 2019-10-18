@@ -2537,6 +2537,11 @@ header {
   border: 2px solid #dee3e4;
   border-radius: 3px;
   color: #000000;
+  outline: none;
+}
+
+.field-input:focus {
+  border: 2px solid #ee3643;
 }
 
 .name-field-input {
