@@ -11,9 +11,16 @@ const addCloseButtonClickHandler = () => {
   modalAdd.classList.add('visually-hidden');
 };
 
+const modalAddEscKeydownHandler = (evt) => {
+  if (evt.keyCode === 27) {
+    modalAdd.classList.add('visually-hidden');
+  }
+};
+
 
 addButton.forEach((el) => {
   el.addEventListener('click', addButtonClickHandler);
 });
 
 addCloseButton.addEventListener('click', addCloseButtonClickHandler);
+document.addEventListener('keydown', modalAddEscKeydownHandler);
