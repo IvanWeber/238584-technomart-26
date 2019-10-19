@@ -158,7 +158,7 @@
       <li class="page-main__popular-products__card">
         <img class="popular-products__product-img product-item-pic" src="img/item4.jpg" alt="product picture"
              width="218" height="170">
-        <a href="#" class="popular-products__product-add-to-cart">
+        <a class="popular-products__product-add-to-cart">
           <svg class="popular-products__product-add-to-cart-svg" xmlns="http://www.w3.org/2000/svg" width="15"
                height="15" viewBox="0 0 15 15">
             <circle fill="#ffffff" cx="4.5" cy="13.5" r="1.5"/>
@@ -166,7 +166,7 @@
             <path fill="#ffffff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
           </svg>
           Купить</a>
-        <a href="#" class="popular-products__product-add-to-favorites">В закладки</a>
+        <a class="popular-products__product-add-to-favorites">В закладки</a>
         <h3 class="popular-products__product-heading">Перфоратор BOSCH BFG 9000</h3>
         <p class="popular-products__product-old-price">
           <del>32500 Р.</del>
@@ -176,7 +176,7 @@
       <li class="page-main__popular-products__card">
         <img class="popular-products__product-img product-item-pic" src="img/item1.jpg" alt="product picture"
              width="218" height="170">
-        <a href="#" class="popular-products__product-add-to-cart">
+        <a class="popular-products__product-add-to-cart">
           <svg class="popular-products__product-add-to-cart-svg" xmlns="http://www.w3.org/2000/svg" width="15"
                height="15" viewBox="0 0 15 15">
             <circle fill="#ffffff" cx="4.5" cy="13.5" r="1.5"/>
@@ -194,7 +194,7 @@
       <li class="page-main__popular-products__card">
         <img class="popular-products__product-img product-item-pic" src="img/item2.jpg" alt="product picture"
              width="218" height="170">
-        <a href="#" class="popular-products__product-add-to-cart">
+        <a class="popular-products__product-add-to-cart">
           <svg class="popular-products__product-add-to-cart-svg" xmlns="http://www.w3.org/2000/svg" width="15"
                height="15" viewBox="0 0 15 15">
             <circle fill="#ffffff" cx="4.5" cy="13.5" r="1.5"/>
@@ -426,7 +426,7 @@
 </footer>
 
 <section class="modal modal-feedback visually-hidden">
-  <button class="modal-close" type="button"></button>
+  <button class="modal-feedback-close modal-close" type="button"></button>
   <form class="modal-feedback-form">
     <div class="modal-top-section">
       <div class="name-field-div">
@@ -448,6 +448,19 @@
     </div>
   </form>
 </section>
+
+<section class="modal modal-add visually-hidden">
+  <button class="modal-add-close modal-close" type="button"></button>
+  <div class="item-successfully-added"><p class="item-successfully-added-par">Товар добавлен в корзину!</p></div>
+  <div class="added-bottom-section">
+    <a class="to-creating-order button" href="#">Оформить заказ</a>
+    <a class="to-purchases" href="#">Продолжить покупки</a>
+  </div>
+</section>
+
+
 <script src="js/feedback-modal-window.js"></script>
+<script src="js/added-to-cart-window.js"></script>
+
 </body>
 </html>

@@ -1,13 +1,13 @@
 const addButton = document.querySelectorAll('.popular-products__product-add-to-cart');
 const modalAdd = document.querySelector('.modal-add');
-const closeButton = modalAdd.querySelector('.modal-close');
+const addCloseButton = modalAdd.querySelector('.modal-add-close');
 
 
 const addButtonClickHandler = () => {
   modalAdd.classList.remove('visually-hidden');
 };
 
-const closeButtonClickHandler = () => {
+const addCloseButtonClickHandler = () => {
   modalAdd.classList.add('visually-hidden');
 };
 
@@ -16,4 +16,4 @@ addButton.forEach((el) => {
   el.addEventListener('click', addButtonClickHandler);
 });
 
-closeButton.addEventListener('click', closeButtonClickHandler);
+addCloseButton.addEventListener('click', addCloseButtonClickHandler);
