@@ -1347,6 +1347,7 @@ header {
   border-radius: 3px;
   border-bottom: 3px solid #367315;
   display: none;
+  cursor: pointer;
 }
 
 .popular-products__product-add-to-cart-svg {
@@ -2596,7 +2597,7 @@ header {
 
 /* item-successfully-added */
 
-.item-added {
+.modal-add {
   top: 412px;
   left: 510px;
   width: 620px;
