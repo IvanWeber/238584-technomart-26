@@ -3,16 +3,16 @@ const modalFeedback = document.querySelector('.modal-feedback');
 const feedbackCloseButton = modalFeedback.querySelector('.modal-feedback-close');
 
 const feedbackButtonClickHandler = () => {
-  modalFeedback.classList.remove('visually-hidden');
+  modalFeedback.classList.remove('complete-unavailability');
 };
 
 const feedbackCloseButtonClickHandler = () => {
-  modalFeedback.classList.add('visually-hidden');
+  modalFeedback.classList.add('complete-unavailability');
 };
 
 const modalFeedbackEscKeydownHandler = (evt) => {
   if (evt.keyCode === 27) {
-    modalFeedback.classList.add('visually-hidden');
+    modalFeedback.classList.add('complete-unavailability');
   }
 };
 

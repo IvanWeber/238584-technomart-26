@@ -5,21 +5,21 @@ const toPurchasesButton = modalAdd.querySelector('.to-purchases');
 
 
 const addButtonClickHandler = () => {
-  modalAdd.classList.remove('visually-hidden');
+  modalAdd.classList.remove('complete-unavailability');
 };
 
 const addCloseButtonClickHandler = () => {
-  modalAdd.classList.add('visually-hidden');
+  modalAdd.classList.add('complete-unavailability');
 };
 
 const modalAddEscKeydownHandler = (evt) => {
   if (evt.keyCode === 27) {
-    modalAdd.classList.add('visually-hidden');
+    modalAdd.classList.add('complete-unavailability');
   }
 };
 
 const toPurchasesButtonClickHandler = () => {
-  modalAdd.classList.add('visually-hidden');
+  modalAdd.classList.add('complete-unavailability');
 };
 
 
