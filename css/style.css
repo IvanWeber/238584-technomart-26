@@ -1725,6 +1725,7 @@ header {
 
 .contacts__yandex-map {
   margin: 32px 0 0 123px;
+  cursor: pointer;
 }
 
 .contacts__feedback-button {
@@ -2660,4 +2661,14 @@ header {
   border-radius: 3px;
   margin-left: 17px;
   cursor: pointer;
+}
+
+/* yandex-map */
+
+
+.modal-yandex-map {
+  top: 30%;
+  left: 30%;
+  width: 940px;
+  min-height: 446px;
 }
