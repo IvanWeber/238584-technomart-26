@@ -202,7 +202,7 @@ header {
   display: flex;
 }
 
-.page-header__logo {
+.page-header__logo-link {
   width: 220px;
   height: 35px;
   text-align: center;
@@ -213,15 +213,11 @@ header {
   padding-bottom: 34px;
 }
 
-.page-header__logo:before {
-  content: url(../img/logo.svg);
-}
-
-.page-header__logo-link:hover > .page-header__logo {
+.page-header__logo-link:hover {
   background-color: #ca2c37;
 }
 
-.page-header__logo-link:active > .page-header__logo {
+.page-header__logo-link:active {
   background-color: #ba2732;
 }
 
