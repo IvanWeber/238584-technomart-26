@@ -951,13 +951,25 @@ header {
 }
 
 .page-main__offer-link {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.29;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
   min-width: 135px;
   min-height: 38px;
-  margin-left: 23px;
+  margin-left: 25px;
   margin-top: -10px;
-  background-color: rgba(0, 0, 0, 0.1);
-  display: flex;
+  /*padding: 11px 5px 5px 24px;*/
+  background-color: rgba(0, 0, 0, 0.1);;
   border-radius: 3px;
+}
+
+.page-main__offer-link-text {
+  margin: auto;
 }
 
 .page-main__offer-link:hover {
@@ -966,10 +978,6 @@ header {
 
 .page-main__offer-link:active {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-.page-main__offer-link-par {
-  margin: auto;
 }
 
 .page-main-container__offers__offer--materials {
@@ -1006,16 +1014,6 @@ header {
   background-color: #ffc047;
   margin-left: 20px;
   margin-top: 20px;
-}
-
-.page-main__offers .feature {
-  font-family: 'Cuprum', sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.29;
-  color: #ffffff;
-  text-transform: uppercase;
 }
 
 .flex-offers-wrap {
