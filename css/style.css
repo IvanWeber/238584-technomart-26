@@ -2661,3 +2661,7 @@ header {
   width: 940px;
   min-height: 446px;
 }
+
+.yandex-iframe {
+  display: block;
+}
