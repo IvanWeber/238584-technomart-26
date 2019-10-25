@@ -481,6 +481,7 @@ header {
   border: #ffffff solid 3px;
   display: flex;
   margin-left: 22px;
+  margin-top: 1px;
   padding: 9px 50px 9px 12px;
 }
 
@@ -537,7 +538,7 @@ header {
   color: #000000;
   list-style-type: none;
   background-color: #ffffff;
-  padding: 12px 26px 12px 15px;
+  padding: 12px 26px 10px 15px;
   margin-left: 21px;
   margin-top: 0;
   display: flex;
@@ -605,7 +606,7 @@ header {
 }
 
 .main-menu--catalog {
-  margin-top: 14px;
+  margin-top: 16px;
 }
 
 .main-menu-item {
@@ -1845,6 +1846,7 @@ header {
   text-align: left;
   color: #32425c;
   text-decoration: underline;
+  /*border-bottom: 1px solid #32425c;*/
 }
 
 .user-menu__my-orders-link:hover {
@@ -1885,11 +1887,13 @@ header {
 }
 
 .user-menu__item-my-orders {
-  margin: 5px 0 0 21px;
+  margin-left: 21px;
+  margin-top: -8px;
 }
 
 .user-menu__item-personal-area {
-  margin: 5px 0 0 17px;
+  margin-left: 17px;
+  margin-top: -8px;
 }
 
 /*catalog-main__breadcrumb*/
