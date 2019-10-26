@@ -1277,11 +1277,14 @@ header {
   border: solid 1px #eaeaea;
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: start;
 }
 
-.page-main__popular-products__card--new:after {
+.page-main__popular-products__card--new:before {
   content: url(../img/new-flag.png);
-  margin: -1px 0 0 -59px;
+  margin-left: 159px;
+  position: absolute;
 }
 
 .page-main__popular-products__card--new:hover:after {
@@ -1291,6 +1294,10 @@ header {
 
 .page-main__popular-products__card:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-products__product-img {
+  margin-bottom: 9px;
 }
 
 .page-main__popular-products__card:hover .popular-products__product-img {
@@ -1310,19 +1317,17 @@ header {
 }
 
 .popular-products__product-heading {
-  position: absolute;
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
-  margin: 179px 0 0 30px;
   width: 157px;
   text-align: center;
   line-height: 1.11;
   color: #000000;
+  margin: 0 auto 0 auto;
 }
 
 .popular-products__product-price {
-  position: absolute;
   display: block;
   font-size: 17px;
   font-weight: bold;
@@ -1332,14 +1337,13 @@ header {
   background: url(../img/item-button.svg) no-repeat;
   min-height: 38px;
   min-width: 141px;
-  margin: 257px 0 0 42px;
   padding: 10px 5px 5px 35px;
+  margin-top: 10px;
+  margin-left: 42px;
 }
 
 .popular-products__product-old-price {
   text-decoration: line-through;
-  width: 67px;
-  height: 12px;
   font-size: 17px;
   font-weight: bold;
   font-style: normal;
@@ -1348,8 +1352,9 @@ header {
   letter-spacing: normal;
   text-align: center;
   color: #999999;
-  position: absolute;
-  margin: 229px 0 0 76px;
+  margin: 13px auto 0 auto;
+  min-width: 64px;
+  min-height: 18px;
 }
 
 .popular-products__product-add-to-cart {
@@ -1362,19 +1367,18 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   background-color: #63a63e;
-  position: absolute;
   margin: 42px 0 0 41px;
-  padding: 11px 45px 6px 49px;
+  padding: 12px 45px 6px 49px;
   border-radius: 3px;
   border-bottom: 3px solid #367315;
-  display: none;
   cursor: pointer;
+  display: none;
 }
 
 .popular-products__product-add-to-cart-svg {
-  position: absolute;
-  margin: 0 0 0 -35px;
   opacity: 0.3;
+  position: absolute;
+  margin-left: -35px;
 }
 
 .popular-products__product-add-to-cart:hover {
@@ -1398,8 +1402,7 @@ header {
   text-align: center;
   color: #32425c;
   text-transform: uppercase;
-  position: absolute;
-  margin: 88px 0px 0 41px;
+  margin: 8px 0 52px 41px;
   padding: 8px 29px 6px 33px;
   border: 3px solid #63a63e;
   border-radius: 3px;
