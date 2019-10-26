@@ -2136,7 +2136,7 @@ header {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.38;
+  line-height: 1;
   letter-spacing: normal;
   text-align: left;
   color: #000000;
@@ -2146,6 +2146,27 @@ header {
   padding-top: 10px;
   border-radius: 3px;
   text-transform: uppercase;
+  align-items: start;
+}
+
+.sort-button {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  align-items: start;
+  background-color: transparent;
+  border: none;
+  padding: 0 0 1px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 1px dotted rgba(238, 54, 67, 1);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-catalog__heading-sort {
@@ -2163,30 +2184,32 @@ header {
 }
 
 .sort-by-price {
-  color: #000000;
   margin-left: 140px;
+  margin-top: 2px;
 }
 
 .sort-by-type {
-  color: #000000;
   margin-left: 70px;
+  margin-top: 2px;
 }
 
 .sort-by-functional {
-  color: #000000;
   margin-left: 66px;
+  margin-top: 2px;
 }
 
 .sort-by-ascending {
   margin-left: 44px;
-  margin-top: -1px;
+  margin-top: 1px;
   font-size: 15px;
+  border: none;
 }
 
 .sort-by-descending {
   margin-left: 17px;
-  margin-top: -1px;
+  margin-top: 1px;
   font-size: 15px;
+  border: none;
 }
 
 .products__products-list {
@@ -2200,11 +2223,11 @@ header {
 
 
 .sorter-radio-button-label {
-  cursor: pointer;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: rgba(238, 54, 67, 1);;
-  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort-button--active {
+  color: #ee3643;
+  border-bottom: none;
 }
 
 .sorter-radio-button:hover + .sorter-radio-button-label,

@@ -10,7 +10,7 @@
   <div class="page-header__top-section">
     <div class="page-header__top-section__container container">
       <a class="page-header__logo-link" href="index.html">
-        <img src="img/logo.svg">
+        <img src="img/logo.svg" alt="Логотип Техномарт">
       </a>
       <form class="page-header__search-form" action="catalog.html" method="get">
         <label for="search-field" class="page-header__search-form-label visually-hidden">Поиск</label>
@@ -161,22 +161,11 @@
     <section class="catalog-main__products products">
       <div class="products__sort">
         <h2 class="main-catalog__heading-sort">Сортировка:</h2>
-
-        <input class="visually-hidden page-main-slider__first-slide-radio-button sorter-radio-button" type="radio" id="sort-by-price-slide" name="sort-type">
-        <label class="sort-by-price sorter-radio-button-label" for="sort-by-price-slide">По цене</label>
-
-        <input class="visually-hidden page-main-slider__second-slide-radio-button sorter-radio-button" type="radio" id="second-sort-by-type" name="sort-type">
-        <label class="sort-by-type sorter-radio-button-label" for="second-sort-by-type">По типу</label>
-
-        <input class="visually-hidden page-main-slider__first-slide-radio-button sorter-radio-button" type="radio" id="sort-by-functional" name="sort-type">
-        <label class="sort-by-functional sorter-radio-button-label" for="sort-by-functional">По функционалу</label>
-
-        <input class="visually-hidden page-main-slider__second-slide-radio-button up-down-sorter-radio-button" type="radio" id="sort-by-ascending" name="up-down-sort">
-        <label class="sort-by-ascending up-down-sorter-radio-button-label" for="sort-by-ascending">▲</label>
-
-        <input class="visually-hidden page-main-slider__second-slide-radio-button up-down-sorter-radio-button" type="radio" id="sort-by-descending" name="up-down-sort">
-        <label class="sort-by-descending up-down-sorter-radio-button-label" for="sort-by-descending">▼</label>
-
+        <button class="sort-button sort-button--active sort-by-price">По цене</button>
+        <button class="sort-button sort-by-type">По типу</button>
+        <button class="sort-button sort-by-functional">По функционалу</button>
+        <button class="sort-button sort-button--active sort-by-ascending">▲</button>
+        <button class="sort-button sort-by-descending">▼</button>
       </div>
       <ul class="products__products-list">
         <li class="page-main__popular-products__card">
