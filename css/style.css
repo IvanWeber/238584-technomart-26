@@ -1110,9 +1110,9 @@ header {
   font: inherit;
   color: inherit;
   background-color: transparent;
-  position: absolute;
-  margin-top: 114px;
-  margin-left: 25px;
+  position: relative;
+  bottom: 152px;
+  left: 26px;
   cursor: pointer;
 }
 
@@ -1122,9 +1122,9 @@ header {
   font: inherit;
   color: inherit;
   background-color: transparent;
-  position: absolute;
-  margin-top: 114px;
-  margin-left: 578px;
+  position: relative;
+  bottom: 152px;
+  left: 557px;
   cursor: pointer;
 }
 
