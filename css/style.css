@@ -1114,6 +1114,9 @@ header {
   bottom: 152px;
   left: 26px;
   cursor: pointer;
+  /*position: absolute;*/
+  /*margin-top: 114px;*/
+  /*margin-left: 25px;*/
 }
 
 .page-main-slider__right-arrow-button {
@@ -1126,6 +1129,9 @@ header {
   bottom: 152px;
   left: 557px;
   cursor: pointer;
+  /*position: absolute;*/
+  /*margin-top: 114px;*/
+  /*margin-left: 578px;*/
 }
 
 #first-slide:checked ~ .page-main-slider {
@@ -1164,13 +1170,15 @@ header {
 }
 
 .page-main-slider__first-slide-radio-label {
-  margin-left: 294px;
-  margin-top: 361px;
+  position: relative;
+  top: 361px;
+  right: 646px;
 }
 
 .page-main-slider__second-slide-radio-label {
-  margin-left: 314px;
-  margin-top: 361px;
+  position: relative;
+  top: 361px;
+  right: 626px;
 }
 
 .slider-radio-button:hover + .slider-radio-button-label,
