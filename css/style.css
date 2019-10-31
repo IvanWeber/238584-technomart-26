@@ -1444,13 +1444,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 18px;
+  margin-right: -20px;
 }
 
 .page-main__popular-manufacturers__card {
   list-style-type: none;
   height: 145px;
   width: 220px;
-  margin-right: 13px;
+  margin-right: 20px;
   margin-bottom: 20px;
   border: solid 1px #eaeaea;
   display: flex;
