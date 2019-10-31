@@ -2220,6 +2220,7 @@ header {
   cursor: pointer;
   border-bottom: 1px dotted rgba(238, 54, 67, 1);
   color: rgba(0, 0, 0, 0.3);
+  max-height: 15px;
 }
 
 .sort-button:hover {
