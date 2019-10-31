@@ -1885,7 +1885,6 @@ header {
   text-align: left;
   color: #32425c;
   text-decoration: underline;
-  margin-left: 15px;
 }
 
 .user-menu__personal-area-link:hover {
@@ -1897,8 +1896,9 @@ header {
 }
 
 .user-menu__personal-area-link-svg {
-  position: absolute;
-  margin: 9px 0 0 -17px;
+  position: relative;
+  top: 9px;
+  right: 2px;
 }
 
 .user-menu__item-my-orders {
