@@ -987,14 +987,14 @@ header {
   line-height: 1.29;
   color: #ffffff;
   text-transform: uppercase;
-  display: flex;
   min-width: 135px;
   min-height: 38px;
   margin-left: 25px;
   margin-top: -10px;
-  /*padding: 11px 5px 5px 24px;*/
+  padding-top: 11px;
   background-color: rgba(0, 0, 0, 0.1);;
   border-radius: 3px;
+  text-align: center;
 }
 
 .page-main__offer-link-text {
@@ -1465,7 +1465,9 @@ header {
 }
 
 .page-main__popular-manufacturers__card-link {
-  margin: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 
 .page-main__popular-manufacturers__img {
