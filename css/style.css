@@ -225,6 +225,7 @@ header {
 .page-header__search-form {
   display: flex;
   flex-grow: 1;
+  position: relative;
 }
 
 .page-header__search-form-input {
@@ -253,9 +254,9 @@ header {
 }
 
 .page-header__search-form-svg {
-  position: absolute;
-  margin-top: 13px;
-  margin-left: 17px;
+  position: relative;
+  top: 13px;
+  right: 237px;
   fill: #ffffff;
   opacity: 0.3;
 }
@@ -445,6 +446,7 @@ header {
   display: flex;
   padding-top: 10px;
   flex: 0 0 150px;
+  max-width: 150px;
 }
 
 /*page-header__page-header__top-sectionction*/
@@ -1098,10 +1100,10 @@ header {
   text-transform: uppercase;
   padding: 11px 45px 9px 50px;
   border-radius: 3px;
-  width: 195px;
-  position: absolute;
-  margin-top: 122px;
-  margin-left: 25px;
+  width: 197px;
+  position: relative;
+  top: 122px;
+  left: 25px;
 }
 
 .page-main-slider__left-arrow-button {
@@ -1252,7 +1254,6 @@ header {
 }
 
 .page-main__heading-block-button {
-  position: absolute;
   display: block;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
@@ -1264,7 +1265,7 @@ header {
   padding: 11px 55px 9px 55px;
   border-radius: 3px;
   margin-top: 25px;
-  margin-left: 663px;
+  margin-left: 372px;
 }
 
 /*page-main-container__popular-products__main*/
@@ -1473,6 +1474,7 @@ header {
 .page-main__heading-manufacturers-button {
   padding: 10px 69px 10px 69px;
   margin-top: 24px;
+  margin-left: 269px;
 }
 
 .page-main__popular-manufacturers__card {
@@ -1770,7 +1772,7 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 3px;
-  margin: 32px 0 0 123px;
+  margin: 32px 0 0 122px;
   padding: 10px 59px 9px 64px;
   cursor: pointer;
 }
@@ -2294,6 +2296,10 @@ header {
 
 /* category-selection */
 
+.catalog-main__products {
+  flex: 0 0 720px;
+}
+
 .divider-1 {
   margin-top: 25px;
   width: 220px;
@@ -2310,7 +2316,7 @@ header {
 
 .catalog-main__producer {
   border: none;
-  display: flex;
+  /*display: flex;*/
   margin-top: 17px;
   margin-left: -13px;
 }
@@ -2329,12 +2335,12 @@ header {
 
 .catalog-main__power {
   border: none;
-  display: flex;
   margin-left: -13px;
   margin-top: 18px;
 }
 
 .category-selection {
+  flex: 0 0 220px;
   font-size: 15px;
   font-weight: normal;
   font-style: normal;
@@ -2396,6 +2402,7 @@ header {
 /*producer-checkboxes*/
 
 .manufacturers-checkbox-label {
+  display: block;
   margin: 9px 0 21px 36px;
 }
 
@@ -2426,6 +2433,7 @@ header {
 /*power-type-radiobuttons*/
 
 .power-radiobutton-label {
+  display: block;
   margin: 9px 0 21px 36px;
 }
 

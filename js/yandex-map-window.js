@@ -3,15 +3,15 @@ const yandexMap = document.querySelector('.modal-yandex-map');
 const closeMapButton = yandexMap.querySelector('.map-close');
 
 
-const openMapButtonClickHandler = () => {
+const openMapButtonClickHandler = function () {
   yandexMap.classList.remove('complete-unavailability');
 };
 
-const closeMapButtonClickHandler = () => {
+const closeMapButtonClickHandler = function () {
   yandexMap.classList.add('complete-unavailability');
 };
 
-const yandexMapEscKeydownHandler = (evt) => {
+const yandexMapEscKeydownHandler = function (evt) {
   if (evt.keyCode === 27) {
     yandexMap.classList.add('complete-unavailability');
   }

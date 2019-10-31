@@ -4,28 +4,32 @@ const addCloseButton = modalAdd.querySelector('.modal-add-close');
 const toPurchasesButton = modalAdd.querySelector('.to-purchases');
 
 
-const addButtonClickHandler = () => {
+const addButtonClickHandler = function ()  {
   modalAdd.classList.remove('complete-unavailability');
 };
 
-const addCloseButtonClickHandler = () => {
+const addCloseButtonClickHandler = function () {
   modalAdd.classList.add('complete-unavailability');
 };
 
-const modalAddEscKeydownHandler = (evt) => {
+const modalAddEscKeydownHandler = function (evt)  {
   if (evt.keyCode === 27) {
     modalAdd.classList.add('complete-unavailability');
   }
 };
 
-const toPurchasesButtonClickHandler = () => {
+const toPurchasesButtonClickHandler = function () {
   modalAdd.classList.add('complete-unavailability');
 };
 
 
-addButton.forEach((el) => {
-  el.addEventListener('click', addButtonClickHandler);
-});
+// addButton.forEach(function (el) {
+//   el.addEventListener('click', addButtonClickHandler);
+// });
+
+for (let i = 0; i < addButton.length; i++) {
+  addButton[i].addEventListener('click', addButtonClickHandler);
+}
 
 addCloseButton.addEventListener('click', addCloseButtonClickHandler);
 document.addEventListener('keydown', modalAddEscKeydownHandler);
