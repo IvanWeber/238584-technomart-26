@@ -2415,7 +2415,6 @@ header {
 
 .last-radiobutton-label {
   margin-bottom: 0;
-  margin-bottom: 0;
 }
 
 .power-radiobutton-input + .power-radiobutton-label:before {
@@ -2516,23 +2515,20 @@ header {
 /* button got lost? */
 
 @keyframes bounce {
-  0% { transform: translateY(-2000px); }
-  70% { transform: translateY(30px); }
-  90% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
-
-@keyframes bounce-feedback {
   0% { transform: translate(-300px, -2000px); }
   80% { transform: translate(-300px, -100px); }
   100% { transform: translate(-300px, -200px); }
 }
 
+@keyframes bounce-yandex-map {
+  0% { transform: translate(-470px, -2000px); }
+  80% { transform: translate(-470px, -100px); }
+  100% { transform: translate(-470px, -200px); }
+}
+
 .modal {
   position: fixed;
-
   color: #000000;
-
   background-color: #ffffff;
   background-position: 0 0;
   background-repeat: repeat;
@@ -2553,7 +2549,6 @@ header {
   min-height: 430px;
   border-top: 7px solid #ee3643;
   transform: translate(-300px, -200px);
-  animation-name: bounce-feedback;
 }
 
 .modal-close {
@@ -2668,11 +2663,10 @@ header {
 /* item-successfully-added */
 
 .modal-add {
-  top: 412px;
-  left: 510px;
   width: 620px;
   min-height: 282px;
   border-top: 7px solid #ee3643;
+  transform: translate(-300px, -200px);
 }
 
 .added-bottom-section {
@@ -2727,10 +2721,10 @@ header {
 
 
 .modal-yandex-map {
-  top: 30%;
-  left: 30%;
   width: 940px;
   min-height: 446px;
+  transform: translate(-470px, -200px);
+  animation-name: bounce-yandex-map;
 }
 
 .yandex-iframe {
