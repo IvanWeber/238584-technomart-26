@@ -261,34 +261,6 @@ header {
   opacity: 0.3;
 }
 
-/*.search-svg-element:before {*/
-/*  content: url(../img/icon-search.svg);*/
-/*  position: absolute;*/
-/*  margin-top: 0;*/
-/*  margin-left: -249px;*/
-/*  opacity: 0.3;*/
-/*  padding: 14px 5px 5px 5px;*/
-/*}*/
-
-/*.page-header__search-form-input:hover > .search-svg-element:before {*/
-/*  content: url(../img/icon-search.svg);*/
-/*  position: absolute;*/
-/*  margin-top: 0;*/
-/*  margin-left: -249px;*/
-/*  opacity: 1;*/
-/*  padding: 14px 5px 5px 5px;*/
-/*}*/
-
-/*.page-header__search-form:focus > .search-svg-element:before {*/
-/*  content: url(../img/icon-search-active.svg);*/
-/*  position: absolute;*/
-/*  margin-top: 0;*/
-/*  margin-left: -266px;*/
-/*  opacity: 1;*/
-/*  background-color: #ffffff;*/
-/*  padding: 14px 14px 5px 17px;*/
-/*}*/
-
 .page-header__search-form-label {
   padding-top: 10px;
   margin-left: 42px;
@@ -1117,9 +1089,6 @@ header {
   bottom: 152px;
   left: 26px;
   cursor: pointer;
-  /*position: absolute;*/
-  /*margin-top: 114px;*/
-  /*margin-left: 25px;*/
 }
 
 .page-main-slider__right-arrow-button {
@@ -1132,9 +1101,6 @@ header {
   bottom: 152px;
   left: 557px;
   cursor: pointer;
-  /*position: absolute;*/
-  /*margin-top: 114px;*/
-  /*margin-left: 578px;*/
 }
 
 #first-slide:checked ~ .page-main-slider {
@@ -1297,11 +1263,6 @@ header {
   position: absolute;
   z-index: 1;
 }
-
-/*.page-main__popular-products__card--new:hover:after {*/
-/*  content: url(../img/new-flag.png);*/
-/*  margin: 0 0 0 159px;*/
-/*}*/
 
 .page-main__popular-products__card:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
@@ -1617,27 +1578,6 @@ header {
   left: 243px;
 }
 
-/*.delivery-pic {*/
-/*  display: inline-block;*/
-/*  position: absolute;*/
-/*  padding-bottom: 0;*/
-/*  margin: -132px 0 0 228px;*/
-/*}*/
-
-/*.guarantee-pic {*/
-/*  display: inline-block;*/
-/*  position: absolute;*/
-/*  padding-bottom: 0;*/
-/*  margin: -178px 0 0 316px;*/
-/*}*/
-
-/*.credit-pic {*/
-/*  display: inline-block;*/
-/*  position: absolute;*/
-/*  padding-bottom: 0;*/
-/*  margin: -108px 0 0 -30px;*/
-/*}*/
-
 .services__link {
   font-family: 'Cuprum', sans-serif;
   font-size: 21px;
@@ -1860,10 +1800,6 @@ header {
   margin: 1px 0 0 -34px;
   opacity: 0.3;
 }
-
-/*.user-menu__item-logout {*/
-/*  margin: 14px 0 0 15px;*/
-/*}*/
 
 .user-menu__logout-link {
   display: inline-block;
