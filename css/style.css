@@ -2522,6 +2522,12 @@ header {
   100% { transform: translateY(0); }
 }
 
+@keyframes bounce-feedback {
+  0% { transform: translate(-300px, -2000px); }
+  80% { transform: translate(-300px, -100px); }
+  100% { transform: translate(-300px, -200px); }
+}
+
 .modal {
   position: fixed;
 
@@ -2534,6 +2540,8 @@ header {
   z-index: 2;
   animation-name: bounce;
   animation-duration: 0.6s;
+  top: 50%;
+  left: 50%;
 }
 
 .modal-top-section {
@@ -2541,12 +2549,11 @@ header {
 }
 
 .modal-feedback {
-  top: 349px;
-  left: 508px;
-
   width: 620px;
   min-height: 430px;
   border-top: 7px solid #ee3643;
+  transform: translate(-300px, -200px);
+  animation-name: bounce-feedback;
 }
 
 .modal-close {
