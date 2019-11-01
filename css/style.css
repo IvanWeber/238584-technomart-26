@@ -1103,27 +1103,27 @@ header {
   cursor: pointer;
 }
 
-#first-slide:checked ~ .page-main-slider {
+.first-slide:checked ~ .page-main-slider {
   background: url(../img/drills.png) no-repeat;;
 }
 
-#second-slide:checked ~ .page-main-slider {
+.second-slide:checked ~ .page-main-slider {
   background: url(../img/perforators.png) no-repeat;;
 }
 
-#first-slide:checked ~ .page-main-slider > #catalog-slide-1 {
+.first-slide:checked ~ .page-main-slider > .catalog-slide-1 {
   display: block;
 }
 
-#first-slide:checked ~ .page-main-slider > #catalog-slide-2 {
+.first-slide:checked ~ .page-main-slider > .catalog-slide-2 {
   display: none;
 }
 
-#second-slide:checked ~ .page-main-slider > #catalog-slide-1 {
+.second-slide:checked ~ .page-main-slider > .catalog-slide-1 {
   display: none;
 }
 
-#second-slide:checked ~ .page-main-slider > #catalog-slide-2 {
+.second-slide:checked ~ .page-main-slider > .catalog-slide-2 {
   display: block;
 }
 
@@ -1622,15 +1622,15 @@ header {
   position: relative;
 }
 
-#product-1:checked ~ .services__list--detail #slide1,
-#product-2:checked ~ .services__list--detail #slide2,
-#product-3:checked ~ .services__list--detail #slide3 {
+.product-1:checked ~ .services__list--detail .slide1,
+.product-2:checked ~ .services__list--detail .slide2,
+.product-3:checked ~ .services__list--detail .slide3 {
   display: block;
 }
 
-#product-1:checked ~ .services__list--short .services__link[for='product-1'],
-#product-2:checked ~ .services__list--short .services__link[for='product-2'],
-#product-3:checked ~ .services__list--short .services__link[for='product-3'] {
+.product-1:checked ~ .services__list--short .services__link[for='product-1'],
+.product-2:checked ~ .services__list--short .services__link[for='product-2'],
+.product-3:checked ~ .services__list--short .services__link[for='product-3'] {
   background-color: #ffffff;
   color: #32425c;
   border: 0;
