@@ -22,11 +22,6 @@ const toPurchasesButtonClickHandler = function () {
   modalAdd.classList.add('complete-unavailability');
 };
 
-
-// addButton.forEach(function (el) {
-//   el.addEventListener('click', addButtonClickHandler);
-// });
-
 for (let i = 0; i < addButton.length; i++) {
   addButton[i].addEventListener('click', addButtonClickHandler);
 }

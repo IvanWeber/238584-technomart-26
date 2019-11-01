@@ -13,11 +13,6 @@ const arrowClickHandler = function () {
   }
 };
 
-
-// arrows.forEach((el) => {
-//   el.addEventListener('click', arrowClickHandler)
-// });
-
 for (let i = 0; i <= 1; i++) {
   arrows[i].addEventListener('click', arrowClickHandler);
 }
