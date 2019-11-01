@@ -1275,7 +1275,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-right: -32px;
-  margin-top: 21px;
+  margin-top: 1px;
 }
 
 .page-main__popular-products__card {
@@ -1283,6 +1283,7 @@ header {
   height: 318px;
   width: 220px;
   margin-right: 20px;
+  margin-top: 20px;
   border: solid 1px #eaeaea;
   display: flex;
   align-items: flex-start;
@@ -2229,7 +2230,7 @@ header {
 }
 
 .products__products-list {
-  margin: 0 -20px 0 12px;
+  margin: 0 -20px 0 20px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
