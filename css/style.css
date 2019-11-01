@@ -555,6 +555,7 @@ header {
   margin-right: -3px;
   margin-top: 0;
   display: inline-block;
+  vertical-align: top;
 }
 
 .page-header__user-menu-item-link-registration:hover {
@@ -589,6 +590,7 @@ header {
 
 .main-menu-item-link {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
   background-color: #32425c;
@@ -716,6 +718,7 @@ header {
 
 .footer-main-menu-link {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   color: #ffffff;
   background-color: #32425c;
@@ -1491,6 +1494,7 @@ header {
 
 .services__list--short {
   display: inline-block;
+  vertical-align: top;
   list-style-type: none;
   padding: 69px 0 0 0;
   margin: 0;
@@ -1540,6 +1544,7 @@ header {
 
 .credit__link {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   line-height: 1.29;
@@ -1643,6 +1648,7 @@ header {
 
 .about-company__company-info {
   display: inline-block;
+  vertical-align: top;
   max-width: 512px;
 }
 
@@ -1691,6 +1697,7 @@ header {
 .company-info__list-item::before {
   content: '';
   display: inline-block;
+  vertical-align: top;
   height: 2px;
   width: 25px;
   background-image: url(../img/list-bullet.png);
@@ -1699,6 +1706,7 @@ header {
 
 .company-info__button-more-info {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1740,6 +1748,7 @@ header {
 
 .contacts__feedback-button {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -1801,6 +1810,7 @@ header {
 
 .user-menu__logout-link {
   display: inline-block;
+  vertical-align: top;
   padding: 16px 9px 6px 15px;
   background-color: #ffffff;
   margin: -2px 0 0 0;
@@ -1906,6 +1916,7 @@ header {
 
 .breadcrumb__breadcrumb-link {
   display: inline-block;
+  vertical-align: top;
   color: #000000;
   list-style-type: none;
 }
@@ -1966,6 +1977,7 @@ header {
 
 .main-catalog__heading-filter {
   display: inline-block;
+  vertical-align: top;
   width: 220px;
   height: 38px;
   font-family: 'PT Sans', sans-serif;
@@ -1986,6 +1998,7 @@ header {
 
 .category-selection {
   display: inline-block;
+  vertical-align: top;
 }
 
 /*filter-item*/
@@ -2081,6 +2094,7 @@ header {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: top;
   width: 95px;
 
   font-size: 16px;
@@ -2106,6 +2120,7 @@ header {
   font-size: 17px;
   margin: 0 8px 0 8px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .max-price {
@@ -2334,6 +2349,7 @@ header {
 
 .show-products {
   display: inline-block;
+  vertical-align: top;
   font-size: 13px;
   line-height: 1.38;
   text-align: center;
@@ -2449,6 +2465,7 @@ header {
 
 .pagination-link {
   display: inline-block;
+  vertical-align: top;
   width: 38px;
   height: 38px;
   font-size: 13px;
@@ -2487,7 +2504,7 @@ header {
   background-color: #f4f7f9;
   margin-top: 60px;
   padding-top: 1px;
-  padding-bottom: 68px;
+  padding-bottom: 70px;
 }
 
 .a-few-words-about-perforators-heading {
@@ -2633,12 +2650,14 @@ header {
 
 .name-field-div {
   display: inline-block;
+  vertical-align: top;
   width: 215px;
   margin: 2px 0 0 0;
 }
 
 .email-field-div {
   display: inline-block;
+  vertical-align: top;
   width: 215px;
   margin-left: 21px;
 }
@@ -2693,6 +2712,7 @@ header {
 
 .to-creating-order {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   color: #ffffff;
@@ -2704,6 +2724,7 @@ header {
 
 .to-purchases {
   display: inline-block;
+  vertical-align: top;
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
   color: #000000;
