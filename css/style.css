@@ -1591,26 +1591,51 @@ header {
   margin: 26px 0px 0px 77px;
 }
 
-.delivery-pic {
-  display: inline-block;
+/*.delivery-item {*/
+/*  max*/
+/*}*/
+
+.delivery-item:after {
+  content: url(../img/delivery-service.png);
   position: absolute;
-  padding-bottom: 0;
-  margin: -132px 0 0 228px;
+  top: 25px;
+  left: 228px;
 }
 
-.guarantee-pic {
-  display: inline-block;
+.guarantee-item:after {
+  content: url(../img/guarantee.png);
   position: absolute;
-  padding-bottom: 0;
-  margin: -178px 0 0 316px;
+  top: 3px;
+  left: 316px;
 }
 
-.credit-pic {
-  display: inline-block;
+.credit-item:after {
+  content: url(../img/credit.png);
   position: absolute;
-  padding-bottom: 0;
-  margin: -108px 0 0 -30px;
+  top: 1px;
+  left: 243px;
 }
+
+/*.delivery-pic {*/
+/*  display: inline-block;*/
+/*  position: absolute;*/
+/*  padding-bottom: 0;*/
+/*  margin: -132px 0 0 228px;*/
+/*}*/
+
+/*.guarantee-pic {*/
+/*  display: inline-block;*/
+/*  position: absolute;*/
+/*  padding-bottom: 0;*/
+/*  margin: -178px 0 0 316px;*/
+/*}*/
+
+/*.credit-pic {*/
+/*  display: inline-block;*/
+/*  position: absolute;*/
+/*  padding-bottom: 0;*/
+/*  margin: -108px 0 0 -30px;*/
+/*}*/
 
 .services__link {
   font-family: 'Cuprum', sans-serif;
@@ -1651,8 +1676,9 @@ header {
   cursor: pointer;
 }
 
-.service {
+.service-item {
   display: none;
+  position: relative;
 }
 
 #product-1:checked ~ .services__list--detail #slide1,
