@@ -1027,7 +1027,7 @@ header {
 /* page-main-container__offers */
 
 .page-main-slider {
-  background: url(../img/drills.png) no-repeat;
+  background: #000000 url(../img/drills.png) no-repeat;
   height: 266px;
   width: 620px;
   color: #ffffff;
@@ -1107,11 +1107,11 @@ header {
 }
 
 .first-slide:checked ~ .page-main-slider {
-  background: url(../img/drills.png) no-repeat;;
+  background:  #000000 url(../img/drills.png) no-repeat;;
 }
 
 .second-slide:checked ~ .page-main-slider {
-  background: url(../img/perforators.png) no-repeat;;
+  background:  #000000 url(../img/perforators.png) no-repeat;;
 }
 
 .first-slide:checked ~ .page-main-slider > .catalog-slide-1 {
@@ -1316,7 +1316,7 @@ header {
   font-style: normal;
   line-height: 1.06;
   color: #ffffff;
-  background: url(../img/item-button.svg) no-repeat;
+  background: #ee3643 url(../img/item-button.svg) no-repeat;
   min-height: 38px;
   min-width: 141px;
   padding: 10px 5px 5px 35px;
@@ -2045,14 +2045,12 @@ header {
 
 .range-controls .scale {
   height: 2px;
-
   background: #d7dcde;
 }
 
 .range-controls .bar {
   width: 70%;
   height: 2px;
-
   background: #00ca74;
 }
 
