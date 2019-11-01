@@ -1255,6 +1255,7 @@ header {
   align-items: flex-start;
   flex-wrap: wrap;
   align-content: start;
+  position: relative;
 }
 
 .page-main__popular-products__card--new:before {
@@ -1269,8 +1270,9 @@ header {
 }
 
 .popular-products__product-img {
-  margin-bottom: 9px;
   position: absolute;
+  top: 0;
+  left: 1px;
 }
 
 .page-main__popular-products__card:hover .popular-products__product-img {
@@ -1291,10 +1293,6 @@ header {
 
 .page-main__popular-products__card:hover .popular-products__product-add-to-favorites {
   display: block;
-}
-
-.page-main__popular-products__card:last-child {
-  margin-right: 0;
 }
 
 .popular-products__product-heading {
