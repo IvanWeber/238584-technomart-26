@@ -1294,6 +1294,7 @@ header {
   content: url(../img/new-flag.png);
   margin-left: 159px;
   position: absolute;
+  z-index: 1;
 }
 
 /*.page-main__popular-products__card--new:hover:after {*/
@@ -1307,9 +1308,18 @@ header {
 
 .popular-products__product-img {
   margin-bottom: 9px;
+  position: absolute;
 }
 
 .page-main__popular-products__card:hover .popular-products__product-img {
+  display: none;
+}
+
+.popular-products__product-add-to-cart:focus ~ .popular-products__product-img {
+  display: none;
+}
+
+.popular-products__product-add-to-favorites:focus ~ .popular-products__product-img {
   display: none;
 }
 
@@ -1381,7 +1391,6 @@ header {
   border-radius: 3px;
   border-bottom: 3px solid #367315;
   cursor: pointer;
-  display: none;
 }
 
 .popular-products__product-add-to-cart-svg {
@@ -1415,7 +1424,6 @@ header {
   padding: 8px 29px 6px 33px;
   border: 3px solid #63a63e;
   border-radius: 3px;
-  display: none;
 }
 
 .popular-products__product-add-to-favorites:hover {
