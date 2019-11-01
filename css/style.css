@@ -1316,8 +1316,9 @@ header {
   font-style: normal;
   line-height: 1.06;
   color: #ffffff;
-  background: #ee3643 url(../img/item-button.svg) no-repeat;
-  min-height: 38px;
+  background: url(../img/item-button.svg) no-repeat,
+              linear-gradient(to right, transparent 20px, red 20px, red 100px, transparent 100px);
+  min-height: 37px;
   min-width: 141px;
   padding: 10px 5px 5px 35px;
   margin-top: 10px;
