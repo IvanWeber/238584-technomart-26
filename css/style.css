@@ -774,6 +774,7 @@ header {
   display: flex;
   list-style-type: none;
   margin: 0;
+  padding-top: 3px;
 }
 
 .category-menu-item-link {
@@ -2117,7 +2118,7 @@ header {
 
 .price-dash {
   font-size: 17px;
-  margin: 0 8px 0 8px;
+  margin: 7px 8px 0 8px;
   display: inline-block;
   vertical-align: top;
 }
@@ -2503,7 +2504,7 @@ header {
   background-color: #f4f7f9;
   margin-top: 60px;
   padding-top: 1px;
-  padding-bottom: 70px;
+  padding-bottom: 68px;
 }
 
 .a-few-words-about-perforators-heading {
