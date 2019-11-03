@@ -113,6 +113,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+
+body {
+  font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+}
+
 
 body {
     margin: 0;
@@ -124,15 +133,6 @@ body {
     color: #000000;
 
     background-color: #ffffff;
-}
-
-body {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
-}
-
-
-body {
-  font-family: "PT Sans Narrow", "Tahoma", sans-serif;
 }
 
 img {
@@ -1259,7 +1259,7 @@ header {
 
 .page-main__popular-products__card {
   list-style-type: none;
-  height: 318px;
+  min-height: 318px;
   width: 220px;
   margin-right: 20px;
   margin-top: 20px;
