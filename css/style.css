@@ -1510,6 +1510,7 @@ header {
   padding: 69px 0 0 0;
   margin: 0;
   min-height: 279px;
+  position: relative;
 }
 
 .services__link-item {
@@ -1517,13 +1518,14 @@ header {
   background-color: #32425c;
 }
 
-.services-list-background-pic {
+.services__list--short:after {
   position: absolute;
-  background: url(../img/shadow.png) no-repeat;
+  content: url(../img/shadow.png);
   z-index: 1;
   height: 279px;
   width: 10px;
-  margin: 24px 0 0 230px;
+  top: 31px;
+  left: 230px;
 }
 
 .services__list--detail {
