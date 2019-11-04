@@ -1543,7 +1543,7 @@ header {
   line-height: 1;
   color: #32425c;
   text-transform: uppercase;
-  margin: 67px 0 0 78px;
+  margin: 67px 0 25px 78px;
 }
 
 .service__par {
@@ -1552,7 +1552,7 @@ header {
   font-style: normal;
   line-height: 1.85;
   color: #000000;
-  margin: 25px 0 0 78px;
+  margin: 0 0 0 77px;
 }
 
 .credit__link {
@@ -1566,7 +1566,7 @@ header {
   color: #ffffff;
   border-radius: 3px;
   padding: 11px 44px 9px 45px;
-  margin: 26px 0px 0px 77px;
+  margin: 26px 0 0 77px;
 }
 
 /*.delivery-item {*/
