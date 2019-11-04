@@ -1287,7 +1287,7 @@ header {
 .popular-products__product-img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1px;
 }
 
 .page-main__popular-products__card:hover .popular-products__product-img {
