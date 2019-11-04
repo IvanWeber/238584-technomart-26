@@ -124,15 +124,15 @@ body {
 
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', Arial, sans-serif;
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: normal;
-    color: #000000;
-
-    background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+  min-width: 960px;
 }
 
 img {
@@ -1253,7 +1253,8 @@ header {
 .page-main__popular-products__main {padding: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -32px;
+  margin-left: -10px;
+  margin-right: -10px;
   margin-top: 1px;
 }
 
@@ -1261,7 +1262,8 @@ header {
   list-style-type: none;
   min-height: 318px;
   width: 220px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   border: solid 1px #eaeaea;
   display: flex;
@@ -1426,14 +1428,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 18px;
-  margin-right: -20px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .page-main__popular-manufacturers__card {
   list-style-type: none;
   height: 145px;
   width: 220px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 20px;
   border: solid 1px #eaeaea;
   display: flex;
