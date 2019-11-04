@@ -2059,7 +2059,7 @@ header {
 
   background-color: #f7f3ec;
 
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .range-controls .scale {
@@ -2113,7 +2113,6 @@ header {
   display: inline-block;
   vertical-align: top;
   width: 95px;
-
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -2129,7 +2128,7 @@ header {
   color: #283136;
 
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   background: #f7f3ec;
 }
 
