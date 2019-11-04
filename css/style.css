@@ -2426,6 +2426,24 @@ header {
   margin: -1px 0 0 -34px;
 }
 
+.manufacturers-checkbox-input:disabled + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-off-disabled.svg);
+}
+
+.manufacturers-checkbox-input:checked:disabled + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-on-disabled.svg);
+}
+
+.manufacturers-checkbox-input:disabled:hover + .manufacturers-checkbox-label:before,
+.manufacturers-checkbox-input:disabled:focus + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-off-disabled.svg);
+}
+
+.manufacturers-checkbox-input:disabled:checked:hover + .manufacturers-checkbox-label:before,
+.manufacturers-checkbox-input:disabled:checked:focus + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-on-disabled.svg);
+}
+
 .manufacturers-checkbox-input:checked + .manufacturers-checkbox-label:before {
   content: url(../img/checkbox-on-rest.svg);
 }
