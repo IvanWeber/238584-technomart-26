@@ -2411,18 +2411,6 @@ header {
   margin: -1px 0 0 -34px;
 }
 
-.manufacturers-checkbox-input:disabled:hover + .manufacturers-checkbox-label:before,
-.manufacturers-checkbox-input:disabled:focus + .manufacturers-checkbox-label:before,
-.manufacturers-checkbox-input:disabled + .manufacturers-checkbox-label:before {
-  content: url(../img/checkbox-off-disabled.svg);
-}
-
-.manufacturers-checkbox-input:disabled:checked:hover + .manufacturers-checkbox-label:before,
-.manufacturers-checkbox-input:disabled:checked:focus + .manufacturers-checkbox-label:before,
-.manufacturers-checkbox-input:checked:disabled + .manufacturers-checkbox-label:before {
-  content: url(../img/checkbox-on-disabled.svg);
-}
-
 .manufacturers-checkbox-input:checked + .manufacturers-checkbox-label:before {
   content: url(../img/checkbox-on-rest.svg);
 }
@@ -2435,6 +2423,18 @@ header {
 .manufacturers-checkbox-input:checked:hover + .manufacturers-checkbox-label:before,
 .manufacturers-checkbox-input:checked:focus + .manufacturers-checkbox-label:before {
   content: url(../img/checkbox-on-focus.svg);
+}
+
+.manufacturers-checkbox-input:disabled + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-off-disabled.svg);
+}
+
+.manufacturers-checkbox-input:disabled + .manufacturers-checkbox-label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.manufacturers-checkbox-input:checked:disabled + .manufacturers-checkbox-label:before {
+  content: url(../img/checkbox-on-disabled.svg);
 }
 
 /*power-type-radiobuttons*/
@@ -2454,18 +2454,6 @@ header {
   margin: -1px 0 0 -34px;
 }
 
-.power-radiobutton-input:disabled + .power-radiobutton-label:before,
-.power-radiobutton-input:disabled:hover + .power-radiobutton-label:before,
-.power-radiobutton-input:disabled:focus + .power-radiobutton-label:before {
-  content: url(../img/radio-off-disabled.svg);
-}
-
-.power-radiobutton-input:checked:disabled + .power-radiobutton-label:before,
-.power-radiobutton-input:checked:disabled:hover + .power-radiobutton-label:before,
-.power-radiobutton-input:checked:disabled:focus + .power-radiobutton-label:before {
-  content: url(../img/radio-on-disabled.svg);
-}
-
 .power-radiobutton-input:checked + .power-radiobutton-label:before {
   content: url(../img/radio-on-rest.svg);
 }
@@ -2478,6 +2466,18 @@ header {
 .power-radiobutton-input:checked:hover + .power-radiobutton-label:before,
 .power-radiobutton-input:checked:focus + .power-radiobutton-label:before {
   content: url(../img/radio-on-focus.svg);
+}
+
+.power-radiobutton-input:disabled + .power-radiobutton-label:before {
+  content: url(../img/radio-off-disabled.svg);
+}
+
+.power-radiobutton-input:disabled + .power-radiobutton-label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.power-radiobutton-input:checked:disabled + .power-radiobutton-label:before {
+  content: url(../img/radio-on-disabled.svg);
 }
 
 /*pagination*/
