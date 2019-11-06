@@ -2216,9 +2216,6 @@ header {
   opacity: 1;
 }
 
-.sorter-radio-button + .sorter-radio-button-label {
-}
-
 .sorter-radio-button:checked + .sorter-radio-button-label {
   color: #ee3643;
   text-decoration: none;
