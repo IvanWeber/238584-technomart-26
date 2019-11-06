@@ -2451,27 +2451,11 @@ header {
   margin: -1px 0 0 -34px;
 }
 
-.power-radiobutton-input:disabled + .power-radiobutton-label:before {
+.power-radiobutton-input:disabled + .power-radiobutton-label:before, .power-radiobutton-input:disabled:hover + .power-radiobutton-label:before, .power-radiobutton-input:disabled:focus + .power-radiobutton-label:before {
   content: url(../img/radio-off-disabled.svg);
 }
 
-.power-radiobutton-input:checked:disabled + .power-radiobutton-label:before {
-  content: url(../img/radio-on-disabled.svg);
-}
-
-.power-radiobutton-input:disabled:hover + .power-radiobutton-label:before {
-  content: url(../img/radio-off-disabled.svg);
-}
-
-.power-radiobutton-input:checked:disabled:hover + .power-radiobutton-label:before {
-  content: url(../img/radio-on-disabled.svg);
-}
-
-.power-radiobutton-input:disabled:focus + .power-radiobutton-label:before {
-  content: url(../img/radio-off-disabled.svg);
-}
-
-.power-radiobutton-input:checked:disabled:focus + .power-radiobutton-label:before {
+.power-radiobutton-input:checked:disabled + .power-radiobutton-label:before, .power-radiobutton-input:checked:disabled:hover + .power-radiobutton-label:before, .power-radiobutton-input:checked:disabled:focus + .power-radiobutton-label:before {
   content: url(../img/radio-on-disabled.svg);
 }
 
@@ -2493,9 +2477,11 @@ header {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
-  margin: 52px 0 0 20px;
+  margin: 47px 0 0 20px;
+  max-width: 720px;
 }
 
 .pagination-item {
@@ -2514,6 +2500,7 @@ header {
   background-color: #ffffff;
   padding: 9px 0 0 0;
   margin-right: 10px;
+  margin-top: 5px;
   border-radius: 3px;
 }
 
