@@ -2451,6 +2451,30 @@ header {
   margin: -1px 0 0 -34px;
 }
 
+.power-radiobutton-input:disabled + .power-radiobutton-label:before {
+  content: url(../img/radio-off-disabled.svg);
+}
+
+.power-radiobutton-input:checked:disabled + .power-radiobutton-label:before {
+  content: url(../img/radio-on-disabled.svg);
+}
+
+.power-radiobutton-input:disabled:hover + .power-radiobutton-label:before {
+  content: url(../img/radio-off-disabled.svg);
+}
+
+.power-radiobutton-input:checked:disabled:hover + .power-radiobutton-label:before {
+  content: url(../img/radio-on-disabled.svg);
+}
+
+.power-radiobutton-input:disabled:focus + .power-radiobutton-label:before {
+  content: url(../img/radio-off-disabled.svg);
+}
+
+.power-radiobutton-input:checked:disabled:focus + .power-radiobutton-label:before {
+  content: url(../img/radio-on-disabled.svg);
+}
+
 .power-radiobutton-input:checked + .power-radiobutton-label:before {
   content: url(../img/radio-on-rest.svg);
 }
