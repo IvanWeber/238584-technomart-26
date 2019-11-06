@@ -241,10 +241,6 @@ header {
   line-height: 1.06;
 }
 
-.page-header__search-form-input--category {
-
-}
-
 .page-header__search-form-input:focus {
   background-color: #ffffff;
   border: none;
@@ -848,14 +844,12 @@ header {
   align-items: center;
 }
 
-.soc-network-list-item-vk {
-}
-
 .soc-network-list-item-vk-img {
   margin: auto;
 }
 
-.page-footer__feedback-par, .page-footer__developer-par {
+.page-footer__feedback-par,
+.page-footer__developer-par {
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -870,7 +864,8 @@ header {
   margin-left: 51px;
 }
 
-.page-footer__feedback-link, .page-footer__developer-link {
+.page-footer__feedback-link,
+.page-footer__developer-link {
   display: block;
   color: #ffd180;
 }
@@ -1569,10 +1564,6 @@ header {
   margin: 26px 0 0 77px;
 }
 
-/*.delivery-item {*/
-/*  max*/
-/*}*/
-
 .delivery-item:after {
   content: url(../img/delivery-service.png);
   position: absolute;
@@ -1865,7 +1856,6 @@ header {
   text-align: left;
   color: #32425c;
   text-decoration: underline;
-  /*border-bottom: 1px solid #32425c;*/
 }
 
 .user-menu__my-orders-link:hover {
@@ -2378,7 +2368,8 @@ header {
   margin-top: 71px;
 }
 
-.show-products:hover, .show-products:focus {
+.show-products:hover,
+.show-products:focus {
   border: solid 1px #bdc6ca;
 }
 
@@ -2500,9 +2491,6 @@ header {
   max-width: 720px;
 }
 
-.pagination-item {
-}
-
 .pagination-link {
   display: inline-block;
   vertical-align: top;
@@ -2520,7 +2508,8 @@ header {
   border-radius: 3px;
 }
 
-.pagination-link:hover, .pagination-link:focus {
+.pagination-link:hover,
+.pagination-link:focus {
   border: solid 1px #bdc6ca;
 }
 
