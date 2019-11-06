@@ -801,6 +801,7 @@ header {
 
 .page-footer__bottom-section__container {
   display: flex;
+  align-items: center;
 }
 
 .page-footer__copyright-section {
@@ -812,10 +813,20 @@ header {
   color: #ffffff;
   margin-top: 21px;
   margin-left: 2px;
+  max-width: 240px;
+  margin-right: 42px;
+}
+
+.page-footer__copyright {
+  display: flex;
+  margin-top: 21px;
+  padding-right: 14px;
+  padding-left: 14px;
 }
 
 .page-footer__social-networks {
-  margin-left: 118px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 21px;
 }
 
@@ -823,6 +834,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  padding: 0;
 }
 
 .soc-link:hover {
@@ -860,9 +872,16 @@ header {
   font-style: normal;
   line-height: 1.13;
   color: #ffffff;
+  margin: 0;
+  max-width: 150px;
+}
+
+.page-footer__developer-par {
+  margin-left: 51px;
 }
 
 .page-footer__feedback-link, .page-footer__developer-link {
+  display: block;
   color: #ffd180;
 }
 
@@ -1224,53 +1243,54 @@ header {
   margin-left: -10px;
   margin-right: -10px;
   margin-top: 1px;
+  list-style: none;
 }
 
 .page-main__popular-products__card {
-  list-style-type: none;
-  min-height: 318px;
   width: 220px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
   border: solid 1px #eaeaea;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content: start;
+  flex-direction: column;
   position: relative;
+  padding-bottom: 5px;
 }
 
 .page-main__popular-products__card--new:before {
   content: url(../img/new-flag.png);
   margin-left: 159px;
   position: absolute;
-  z-index: 1;
+  z-index: 10;
 }
 
 .page-main__popular-products__card:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
-.buy-block-hidden, .fav-block-hidden {
-  position: absolute;
-  opacity: 0;
-  z-index: 1;
+.popular-products__product-img {
+  order: -1;
 }
 
-/*.popular-products__product-img {*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*}*/
+.card-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 43px 41px 20px;
+  background-color: #ffffff;
+  opacity: 0;
+}
 
 .page-main__popular-products__card:hover .popular-products__product-img {
   opacity: 0;
 }
 
-.page-main__popular-products__card:hover .buy-block-hidden,
-.page-main__popular-products__card:hover .fav-block-hidden{
+.page-main__popular-products__card:hover .card-wrapper,
+.page-main__popular-products__card:focus-within .card-wrapper {
   opacity: 1;
+  z-index: 1;
 }
 
 .popular-products__product-add-to-cart:focus,
@@ -1306,7 +1326,7 @@ header {
   text-align: center;
   line-height: 1.11;
   color: #000000;
-  margin: 0 auto 0 auto;
+  margin: 8px auto 0 auto;
 }
 
 .popular-products__product-price {
@@ -1343,18 +1363,15 @@ header {
 .popular-products__product-add-to-cart {
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
   line-height: 1.29;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
   background-color: #63a63e;
-  margin: 42px 0 0 41px;
   padding: 12px 45px 6px 49px;
   border-radius: 3px;
   border-bottom: 3px solid #367315;
-  cursor: pointer;
+  display: block;
 }
 
 .popular-products__product-add-to-cart-svg {
@@ -1378,16 +1395,15 @@ header {
 .popular-products__product-add-to-favorites {
   font-family: 'Cuprum', sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
   line-height: 1.29;
   text-align: center;
   color: #32425c;
   text-transform: uppercase;
-  margin: 8px 0 52px 41px;
   padding: 8px 29px 6px 33px;
   border: 3px solid #63a63e;
   border-radius: 3px;
+  margin-top: 8px;
+  display: block;
 }
 
 .popular-products__product-add-to-favorites:hover {
@@ -1492,7 +1508,7 @@ header {
   line-height: 1.85;
   color: #000000;
   margin: 26px 0 0 0;
-  min-width: 398px;
+  max-width: 400px;
 }
 
 .services__list--short {
@@ -1652,21 +1668,22 @@ header {
 
 /* about-company-wrap */
 
+.about-company__container {
+  display: flex;
+}
+
 .page-main__about-company {
   display: flex;
   min-height: 536px;
 }
 
 .about-company__company-info {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 512px;
+  flex: 0 0 520px;
 }
 
 .about-company__contacts {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 423px;
+  flex: 0 0 300px;
+  margin-left: 120px;
 }
 
 .company-info__heading {
@@ -1687,6 +1704,10 @@ header {
   line-height: 1.85;
   color: #000000;
   margin: 25px 0 0 1px;
+}
+
+.company-info__par--second {
+  max-width: 400px;
 }
 
 .company-info__menu-list {
@@ -1740,7 +1761,7 @@ header {
   line-height: 1;
   color: #000000;
   text-transform: uppercase;
-  margin: 79px 0 0 123px;
+  margin: 79px 0 0 0;
 }
 
 .contacts__par {
@@ -1749,12 +1770,13 @@ header {
   font-style: normal;
   line-height: 1.85;
   color: #000000;
-  margin: 26px 0 0 123px;
+  margin: 26px 0 0 0;
+  max-width: 200px;
 }
 
 .contacts__yandex-map {
   display: block;
-  margin: 32px 0 0 123px;
+  margin: 32px 0 0 0;
   cursor: pointer;
 }
 
@@ -1770,7 +1792,7 @@ header {
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 3px;
-  margin: 32px 0 0 122px;
+  margin: 32px 0 0 0;
   padding: 10px 59px 9px 64px;
   cursor: pointer;
 }
