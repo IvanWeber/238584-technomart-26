@@ -1741,6 +1741,7 @@ header {
 }
 
 .contacts__yandex-map {
+  display: block;
   margin: 32px 0 0 123px;
   cursor: pointer;
 }
